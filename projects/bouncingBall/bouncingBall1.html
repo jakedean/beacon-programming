@@ -3,8 +3,6 @@
 
 <head>
   <script>
-
-
     function startApp() {
       var context = document.getElementById('canvas').getContext('2d')
       var ball = {
@@ -13,13 +11,11 @@
         movingDown: true,
         movingRight: true
       }
-      function drawCircle() {
+      function drawBall() {
         context.beginPath();
         context.arc(ball.x, ball.y, 4, 0, Math.PI * 2)
         context.stroke()
-
       }
-      drawCircle();
 
       function updateGame() {
         if (ball.movingRight) {
@@ -45,11 +41,10 @@
           ball.movingDown = true
         }
 
-        drawCircle()
+        drawBall()
       }
 
       setInterval(updateGame, 1000 / 60)
-
     }
 
     window.addEventListener('DOMContentLoaded', startApp)
