@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+  <script>
+
+
+    function startApp() {
+      var context = document.getElementById('canvas').getContext('2d')
+      var ball = {
+        x: 40,
+        y: 15,
+        movingDown: true,
+        movingRight: true
+      }
+      function drawCircle() {
+        context.beginPath();
+        context.arc(ball.x, ball.y, 4, 0, Math.PI * 2)
+        context.stroke()
+
+      }
+      drawCircle();
+
+      function updateGame() {
+        if (ball.movingRight) {
+          ball.x = ball.x + .8;
+        } else {
+          ball.x = ball.x - .8;
+        }
+        if (ball.movingDown) {
+          ball.y = ball.y + 1;
+        } else {
+          ball.y = ball.y - 1;
+        }
+
+        if (ball.x >= 300 && ball.movingRight) {
+          ball.movingRight = false;
+        } else if (ball.x <= 0 && !ball.movingRight) {
+          ball.movingRight = true
+        }
+
+        if (ball.y >= 300 && ball.movingDown) {
+          ball.movingDown = false
+        } else if (ball.y <= 0 && !ball.movingDown) {
+          ball.movingDown = true
+        }
+
+        drawCircle()
+      }
+
+      setInterval(updateGame, 1000 / 60)
+
+    }
+
+    window.addEventListener('DOMContentLoaded', startApp)
+  </script>
+</head>
+
+<body>
+  <h1>Ball Bounce</h1>
+  <canvas id="canvas" width="300" height="300" style="border: 1px solid black"></canvas>
+</body>
+
+</html>
