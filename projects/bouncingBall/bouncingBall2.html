@@ -5,21 +5,27 @@
   <script>
     function startApp() {
       var context = document.getElementById('canvas').getContext('2d')
-      var ball = {
-        x: 40,
-        y: 15,
-        movingDown: true,
-        movingRight: true
+      var balls = [];
+      var NUMBER_OF_BALLS = 150;
+      var ballsCreated = 0;
+
+      while (balls.length < NUMBER_OF_BALLS) {
+        balls.push({
+          x: Math.random() * 100,
+          y: Math.random() * 100,
+          movingDown: Math.random() < .5,
+          movingRight: Math.random() < .5
+        })
       }
-      function drawBall() {
-        context.fillStyle = "#fff"
-        context.fillRect(0, 0, 300, 300)
+
+
+      function drawBall(ball) {
         context.beginPath();
         context.arc(ball.x, ball.y, 4, 0, Math.PI * 2)
         context.stroke()
       }
 
-      function updateBall() {
+      function updateBall(ball) {
         if (ball.movingRight) {
           ball.x = ball.x + .8;
         } else {
@@ -43,10 +49,18 @@
           ball.movingDown = true
         }
 
-        drawBall()
+        drawBall(ball)
       }
 
-      setInterval(updateBall, 1000 / 60)
+      function updateBalls() {
+        context.fillStyle = "#fff"
+        context.fillRect(0, 0, 300, 300)
+        for (var i = 0; i < balls.length; i = i + 1) {
+          updateBall(balls[i])
+        }
+      }
+
+      setInterval(updateBalls, 1000 / 60)
     }
 
     window.addEventListener('DOMContentLoaded', startApp)
