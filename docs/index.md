@@ -32,11 +32,13 @@ These are the basic tools the Javascript programming language provides. Understa
 - [Functions](basics/Functions)
 - [Loops](basics/Loops)
 - [Classes](basics/Classes)
+- [HTML](basics/HTML)
 
 ## Learning Activities
 
 Once you understand the basics, it's time to put your understanding and creativity to the test! We have some programs that we have written ourselves for you to write yourself. While the code is available for you to look at, try your best to build these programs yourself first. Along the way we will introduce a few new concepts, such as HTML, CSS, Canvas, and a few others.
 
+- [HTML Basics](https://github.com/jakedean/beacon-programming/tree/master/projects/HTML)
 - [Bouncing Ball](https://github.com/jakedean/beacon-programming/tree/master/projects/bouncingBall)
 - Activity 2
   ...
