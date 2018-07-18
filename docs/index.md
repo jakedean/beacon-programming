@@ -9,10 +9,10 @@ systems and Anthony has been at HubSpot for 3 years working on the front end of 
 # Our Goal
 
 The goal of Beacon Programming is to create a collaborative environment for people to learn to program. Anthony and I learned
-together and the fact that we had each other to learn with accelerated our development as programmers dramatically. We see a
+together and the fact that we had each other to learn accelerated our development as programmers dramatically. We see a
 niche in programming education somewhere in between a bootcamp and a full master's degree. We think bootcamps focus too much
 on high level frameworks and not enough on low level fundamentals, at the same time we think that a full master's program is a
-bit too theoretical and lengthy for people looking to get into industry as soon as possible.
+bit too theoretical and lengthy for people looking to get into the industry as soon as possible.
 
 # Our Method
 
