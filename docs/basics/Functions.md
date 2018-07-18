@@ -2,10 +2,12 @@ Functions are pieces of reusable code.  Here is an example of code in a format t
 ```javascript
 // This code will not use functions.
 var userName = 'Jake';
-console.log('Hello ' + userName + ', how are you today?'); // Prints 'Hello Jake, how are you today?'
+// Prints 'Hello Jake, how are you today?'
+console.log('Hello ' + userName + ', how are you today?');
 
 userName = 'Matt';
-console.log('Hello ' + userName + ', how are you today?'); // Prints 'Hello Matt, how are you today?'
+// Prints 'Hello Matt, how are you today?'
+console.log('Hello ' + userName + ', how are you today?');
 ```
 
 You will notice that we had to repeat the `console.log('Hello ' + userName + ', how are you today?');` part of this code in order
@@ -20,10 +22,12 @@ function greetTheUser(userName) {
 }
 
 // Call the function while passing in 'Jake' as the userName
-greetTheUser('Jake');  // Prints 'Hello Jake, how are you today?'
+// Prints 'Hello Jake, how are you today?'
+greetTheUser('Jake');
 
 // Now call the same function while passing in 'Matt' as the userName
-greetTheUser('Matt');  // Prints 'Hello Matt, how are you today?'
+// Prints 'Hello Matt, how are you today?'
+greetTheUser('Matt');
 ```
 
 In the example above we reuse the code that is inside `greetTheUser` more than once so we don't have to rewrite the logic.
@@ -33,12 +37,15 @@ Here is another example of a function that can add two numbers and `return` the 
 function addTwoNumbers(firstNumber, secondNumber) {
   return firstNumber + secondNumber;
 }
+// The returned value from our function will be 3, so sum will be set to 3 here
+var sum = addTwoNumbers(1, 2);
+// Will print out 3
+console.log(sum);
 
-var sum = addTwoNumbers(1, 2); // The returned value from our function will be 3, so sum will be set to 3 here
-console.log(sum);  // Will print out 3
-
-var secondSum = addTwoNumbers(10, 15); // The returned value from our function will be 25, so sum will be set to 25 here
-console.log(secondSum); // Will print out 25
+// The returned value from our function will be 25, so sum will be set to 25 here
+var secondSum = addTwoNumbers(10, 15);
+// Will print out 25
+console.log(secondSum);
 ```
 
 We can add conditional statements to our functions to have more than one code path...
@@ -52,8 +59,10 @@ function isNumberEven(numberToTest) {
   }
 }
 
-var firstResult = isNumberEven(5);       // firstResult would be set to false
-var secondResult = isNumberEven(2); // secondResult would be set to true
+// firstResult would be set to false
+var firstResult = isNumberEven(5);
+// secondResult would be set to true
+var secondResult = isNumberEven(2);
 ```
 
 Problems:

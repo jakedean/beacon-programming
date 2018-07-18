@@ -3,7 +3,7 @@ Beacon Programming was founded by myself (Jake Dean) and Anthony Nardi with the 
 We went to school for Economics and Psychology respectively, but we both saw the value of programming after college
 and quit our jobs to learn together.  We were able to make some interesting projects and I later landed a job at Wayfair
 and Anthony started at HubSpot.  I have been a backend engineer at Wayfair for 5 years now working on real time streaming
-systems and Anthony has been at HubSpot for 3 years working on the front end of the CRM tool.
+systems and Anthony has been at HubSpot for 3 years working on the front end of the HubSpot CRM tool.
 
 # Our Goal
 The goal of Beacon Programming is to create a collaborative environment for people to learn to program.  Anthony and I learned
