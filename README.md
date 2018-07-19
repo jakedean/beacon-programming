@@ -18,6 +18,7 @@
 
 # How to make money
 - Charge for access to the slack community.
+- Paywall screencasts (most of them)
 
 # Questions
 - [Easy] Write a function that takes in a string and reverses it.
