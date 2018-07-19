@@ -33,6 +33,7 @@ These are the basic tools the Javascript programming language provides. Understa
 - [Loops](basics/Loops)
 - [Classes](basics/Classes)
 - [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+- [Git](https://git-scm.com/)
 
 ## Learning Activities
 
