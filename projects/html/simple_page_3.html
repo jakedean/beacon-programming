@@ -1,0 +1,22 @@
+<html>
+
+<head>
+  <title>Woohoo!</title>
+  <script>
+    function handleClick() {
+      alert('You clicked the button!')
+    }
+    function initializeApp() {
+      document.getElementById('myButton').addEventListener('click', handleClick)
+    }
+    window.addEventListener('DOMContentLoaded', initializeApp)
+  </script>
+</head>
+
+<body>
+  <h1>My First Page</h1>
+  <p>Sweet</p>
+  <button id="myButton">Click me!</button>
+</body>
+
+</html>

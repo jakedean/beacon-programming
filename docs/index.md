@@ -43,6 +43,7 @@ Once you understand the basics, it's time to put your understanding and creativi
 All you need is a code editor. Feel free to use something as simple as Notepad or (my favorite) [Visual Studio Code](https://code.visualstudio.com/).
 
 - [HTML Basics](https://github.com/jakedean/beacon-programming/tree/master/projects/html)
+- [CSS Basics](https://github.com/jakedean/beacon-programming/tree/master/projects/css)
 - [Bouncing Ball](https://github.com/jakedean/beacon-programming/tree/master/projects/bouncingBall)
-- Activity 2
-  ...
+
+- MORE PROJECTS COMING SOON!
