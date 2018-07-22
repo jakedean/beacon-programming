@@ -45,3 +45,8 @@ All you need is a code editor. Feel free to use something as simple as Notepad o
 - [CSS Basics](https://github.com/jakedean/beacon-programming/tree/master/projects/css)
 - [Bouncing Ball](https://github.com/jakedean/beacon-programming/tree/master/projects/bouncingBall)
 - MORE PROJECTS COMING SOON!
+
+## Contact Us
+
+If you are interested in going through our program please email us at beaconprogramming@gmail.com and we will get back to you as
+soon as we can.  We are looking to get a small batch of people to go through our first program so let us know!
