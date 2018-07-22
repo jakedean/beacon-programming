@@ -28,7 +28,14 @@ var sumOfTwoNumbers = firstNumber + secondNumber;
 ```
 #### Variable Problems
 
-1. Define a variable and set a value to it, print the value to the console, set a new value to it and print it again.
+1.
+```javascript
+// Define a variable and set a value to it
+
+// Print the value to the console
+
+// Set a new value to it and print it again.
+```
 
 2.
 ```javascript

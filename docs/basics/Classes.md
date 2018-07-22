@@ -83,3 +83,18 @@ console.log(chiar.getName());
 // Prints 'leather' the getSeatMaterial function is called on the Chair class.
 console.log(chair.getSeatMaterial());
 ```
+
+#### Class Problems
+1.
+```javascript
+// Create a class called Car that accepts brand and year in the constructor.
+// Add the method called describe car that will print out "I am a 2010 Chevy Cruze" if we
+// passed 'Chevy Cruze' and 2010 to the constructor.
+```
+2.
+```javascript
+// Create another class called Vehicle and make Car extend Vehicle.  Move the brand and year attributes
+// to the Vehicle class and have Car accept milesPerGallon in the constructor instead.
+// Create a class called Bicycle that extends Vehicle and pass the number of gears the bike has
+// to the constructor.
+```

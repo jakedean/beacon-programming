@@ -34,3 +34,16 @@ user.country = 'USA';
 // Prints {'userName': 'jdean', 'emailAddress': 'jdean@yahoo.com', 'country': 'USA'}
 console.log(user);
 ```
+
+#### Objects Problems
+1.
+```javascript
+// in code create an object that has keys that are TShirt sizes S,M,L whose values are arrays of objects where
+// each of those objects represent people that have a first name and last name
+```
+2.
+```javascript
+// Create an object to model a blog, where a blog has many entries, an entry has a name, a date and comments.
+// each comment on an entry has an author and the comment content.
+// Create this object and loop through each block entry and print the info to the console.
+```

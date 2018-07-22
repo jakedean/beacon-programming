@@ -66,5 +66,25 @@ var secondResult = isNumberEven(2);
 ```
 
 Problems:
-1. Write a function that returns the square of the input.
-2. Write a function that returns the square of the input only if that input is even.
+1.
+```javascript
+// Write a function called squareOfInput(input) that returns the square of the input.
+// Calling squareOfInput(5) should return 25
+```
+2.
+```javascript
+// Write a function called squareOfInputIfEven(input) that returns the square of the input
+// only if that input is even, else return 0.  Calling squareOfInputIfEven(2) returns 4
+// squareOfInputIfEven(3) returns 0
+```
+3.
+```javascript
+// Write a function called findEvens(inputArr) that takes an array of ints and returns an array of only even ints
+// Calling findEvens([1, 2, 3, 4]) returns [2,4]
+```
+4.
+```javascript
+// Write a function called containsSub(subString, fullString) that takes two strings and returns true if the
+// substring is in the full string, false otherwise.
+// Calling containsSub('at', 'bat') -> true, containsSub('dude', 'Tony Nardi') -> false
+```
