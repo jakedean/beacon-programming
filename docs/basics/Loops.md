@@ -1,4 +1,4 @@
-Loops allow you to repeat instructions over and over, without needing to write much code. 
+Loops allow you to repeat instructions over and over, without needing to write much code.
 
 ## Examples
 
@@ -34,9 +34,19 @@ while (randyIsHungry) {
   randyIsHungry = isRandyHungry();
 }
 ```
-As you can see, Randy will keep eating cheeseburgers until he is full. 
+As you can see, Randy will keep eating cheeseburgers until he is full.
 
 ## Problems
-1. What is the highest number in the following array?
-`[1,1,2,1.5,1.9,2.2,2.09,1.5,2.2,2.3,2.2,0,.99,.5,.02,.92,.2.20,2.11,1,1,1.22,1,9,2.1,2.23,2.13,2.21,.3,.5,1,1,2,1.5,1.9,2.2,2.09,1.5,2.2,2.3,2.2,0,.99,.5,.02,.92,.2.20,2.11,1,1,1.22,1,9,2.1,2.23,2.13,2.21,.3,.5]`
-2. How many iterations does it take to get to the number 10,000,000 if you only multiply `1.5` by itself?
+1.
+```javascript
+// What is the highest number in the following array?
+// [1,1,2,1.5,1.9,2.2,2.09,1.5,2.2,2.3,2.2,0,.99,.5,.02,.92,.2.20,2.11,1,1,1.22,1,9,.3,.5]
+```
+2.
+```javascript
+// How many iterations does it take to get to the number 10,000,000 if you only multiply `1.5` by itself?
+```
+3.
+```javascript
+// Loop over the numbers from 0 to 100 printing 'Even' for evens and 'Odd' for odds.
+```

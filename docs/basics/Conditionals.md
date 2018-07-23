@@ -49,3 +49,22 @@ var fourthExample = (true || false); // value is true
 var fifthExample = (true || true);   // value is true
 var sixthExample = (false || false); // value is false
 ```
+
+#### Conditionals Problems
+1.
+```javascript
+// Define a variable that holds and integer
+// Then define a conditional that prints "Even" if the int is even and "Odd" if the int is odd.
+```
+2.
+```javascript
+// Define a variable that holds a string called firstName
+// Then define a conditional that prints out "You have a short name" if
+// the name is under 10 characters and "You have a long name!" if >= 10 characters
+```
+3.
+```javascript
+// Define two integers called firstInt and secondInt
+// Then define a conditional that prints out "Both Even!" if they both are even
+// "One Even, One Odd" if one is even and one is odd and "Both Odd" if they both are odd.
+```

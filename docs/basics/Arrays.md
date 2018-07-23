@@ -72,12 +72,48 @@ console.log(sumOfInts);  // Prints 6000
 ```
 
 #### Array Problems
-- Create an array, loop through each element and print out the index and value.
-- Create and array filled with 5 elements, print it out, then create a reverse of the first array, print it out.
-- Write a function defined as `sortArray(arr)` that takes an array of integers and sorts them from smallest integer
-  to largest integer.
-- Write a function defined as `combineArrays(arr1, arr2)` that takes in two arrays and combines them into one
-  and returns the combined array: `combineArrays([1, 2], [3]) -> [1, 2, 3]`
-- Write a function defined as `getSize(arr)` that takes in an array and gets the size of it.
-- Write a function defined as `getSum(arr)` that takes in an array of ints and gets the sum of them.
-- Write a function defined as `createString(arr)` that takes in an array of strings and returns one long string.
+1.
+```javascript
+// Create an array
+
+// Loop through each element and print out the index and value.
+```
+2.
+```javascript
+// Create an array filled with 5 elements and print it out
+
+// Now create a reverse of the first array using a loop and print it out.
+```
+3.
+```javascript
+//Write a function defined as sortArray(arr) that takes an array of integers and sorts them
+// from smallest integer to largest integer.
+// calling sortArr([3,7,1,9]) would return [1, 3, 7, 9]
+```
+4.
+```javascript
+// Write a function defined as combineArrays(arr1, arr2) that takes in two arrays and combines them into one
+// and returns the combined array, calling combineArrays([1, 2], [3]) should return [1, 2, 3]
+```
+5.
+```javascript
+// Write a function defined as `getSize(arr)` that takes in an array and gets the size of it.
+// Calling getSize([1, 2, 8]) should return 3.
+```
+6.
+```javascript
+// Write a function defined as getSum(arr) that takes in an array of ints and gets the sum of them.
+// Calling getSum([1,2,3]) should return 6
+
+// Now write one called getAverage(arr) that takes in an array of ints and gets the average of them.
+// Calling getAverage([0, 5, 10]) should return 5.
+
+// Last, write a function called getMedian(arr) that takes in an array of ints and get the median.
+// Calling getMedian([2, 8, 7, 7, 7]) should return 7
+```
+7.
+```javascript
+// Write a function defined as createString(arr) that takes in an array of strings and returns one long string
+// where the words are separated by spaces.
+// Calling createString(['Hey', 'my', 'name', 'is', 'Jake']) should return 'Hey my name is jake'
+```

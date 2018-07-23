@@ -33,6 +33,9 @@ These are the basic tools the Javascript programming language provides. Understa
 - [Loops](basics/Loops)
 - [Classes](basics/Classes)
 
+Here are some of the basic tools of the development workflow:
+- [Git](basics/Git)
+
 ## Learning Activities
 
 Once you understand the basics, it's time to put your understanding and creativity to the test! We have some programs that we have written ourselves for you to write yourself. While the code is available for you to look at, try your best to build these programs yourself first. Along the way we will introduce a few new concepts, such as HTML, CSS, Canvas, and a few others. If you aren't familiar with HTML or CSS, we suggest going through the examples for each in the section you see below. We use HTML and CSS for all the projects we will build.
@@ -45,3 +48,8 @@ All you need is a code editor. Feel free to use something as simple as Notepad o
 - [CSS Basics](https://github.com/jakedean/beacon-programming/tree/master/projects/css)
 - [Bouncing Ball](https://github.com/jakedean/beacon-programming/tree/master/projects/bouncingBall)
 - MORE PROJECTS COMING SOON!
+
+## Contact Us
+
+If you are interested in going through our program please email us at beaconprogramming@gmail.com and we will get back to you as
+soon as we can.  We are looking to get a small batch of people to go through our first program so let us know!
