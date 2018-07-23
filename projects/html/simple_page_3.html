@@ -3,19 +3,28 @@
 <head>
   <title>Woohoo!</title>
   <script>
-    function handleClick() {
-      alert('You clicked the button!')
-    }
-    function initializeApp() {
-      document.getElementById('myButton').addEventListener('click', handleClick)
-    }
-    window.addEventListener('DOMContentLoaded', initializeApp)
-  </script>
+  function handleClick() {
+  alert("You clicked the button!");
+}
+
+function initializeApp() {
+  // document.getElementById is convinient for us to use HTML elements in Javascript, because it
+  // returns the element. It takes the "id" of an element on the page.
+  document.getElementById("myButton").addEventListener("click", handleClick);
+}
+
+// We must use the DOMContentLoaded listener before we can interact with HTML. This event fires after the document
+// has been loaded by the page, indicating that we are ready to use the elements on the page.
+window.addEventListener("DOMContentLoaded", initializeApp);
+</script>
 </head>
 
 <body>
   <h1>My First Page</h1>
   <p>Sweet</p>
+
+  <!-- HTML elements have "attributes". The "id" attribute allows us to
+  more easily interact with the <button /> tag within our Javascript -->
   <button id="myButton">Click me!</button>
 </body>
 
