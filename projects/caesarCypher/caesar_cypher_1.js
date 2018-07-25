@@ -1,7 +1,7 @@
 class CaesarCypher {
   constructor() {
     // Define an alphabet as in instance variable so all of our methods will have access
-    // to it through this.alphabet.
+    // to it through this.alphabet.  The order here must match the real order of the alphabet.
     this.alphabet = [
       'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
       'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ', ',', '.', '!'
@@ -18,7 +18,11 @@ class CaesarCypher {
   encrypt(phrase, offset) {
     var encryptedString = '';
     for (var indexInPhrase = 0; indexInPhrase < phrase.length; indexInPhrase++) {
+      // For this character in our phrase we need to find at what index in our alphabet
+      // it occurs so we can then shift it by the offset amount.
       var alphabetIndex = this.getAlphabetIndex(phrase.charAt(indexInPhrase));
+      // The alphabet index + our offset COULD be a larger number then the length
+      // of our alphabet -> imagine our character was 'z' and the offset was 20...
       var encryptedIndex = (alphabetIndex + offset) % this.alphabet.length;
       var encryptedLetter = this.alphabet[encryptedIndex];
       encryptedString += encryptedLetter;
@@ -38,5 +42,8 @@ class CaesarCypher {
         return alphabetIndex;
       }
     }
+    // If we could not match the character tell the caller that they passed in an unsupported character.
+    throw "We don't support character: " + charToFind +
+          ", here is our this of  supported characters: " + this.alphabet.join(',');
   }
 }
