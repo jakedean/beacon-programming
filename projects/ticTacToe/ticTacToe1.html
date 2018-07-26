@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+  <script>
+    function startApp() {
+      var context = document.getElementById('canvas').getContext('2d')
+
+      context.moveTo(100, 0);
+      context.lineTo(100, 300);
+      context.stroke();
+
+      context.moveTo(200, 0);
+      context.lineTo(200, 300);
+      context.stroke();
+
+      context.moveTo(0, 100);
+      context.lineTo(300, 100);
+      context.stroke();
+
+      context.moveTo(0, 200);
+      context.lineTo(300, 200);
+      context.stroke();
+
+      document.getElementById('playerTurn').value = 'Player Turn: red';
+      document.getElementById('canvas').addEventListener('click', playerMove);
+
+      var gameBoard = [
+        ['', '', ''],
+        ['', '', ''],
+        ['', '', '']
+      ];
+      var currentPlayerMove = 'red';
+
+      function playerMove(event) {
+        console.log('x: ' + Math.ceil(event.clientX / 100) + ', client y: ' + Math.ceil(event.clientY / 100));
+        var col = Math.floor(event.clientX / 100);
+        var row = Math.floor(event.clientY / 100);
+
+        if (gameBoard[row][col] === '') {
+          gameBoard[row][col] = currentPlayerMove;
+          renderGameState();
+          //checkForWinner();
+          currentPlayerMove = (currentPlayerMove === 'red') ? 'blue' : 'red';
+        }
+      }
+
+      function renderGameState() {
+        for (var rowIndex = 0; rowIndex < gameBoard.length; rowIndex ++) {
+          for (var colIndex = 0; colIndex < gameBoard[rowIndex].length; colIndex++) {
+            if (gameBoard[rowIndex][colIndex] !== '') {
+                context.beginPath();
+                context.rect(rowIndex * 100, colIndex * 100, 100, 100);
+                context.fillStyle = gameBoard[rowIndex][colIndex];
+                context.fill();
+            }
+          }
+        }
+      }
+
+    }
+
+    window.addEventListener('DOMContentLoaded', startApp)
+  </script>
+</head>
+
+<body>
+  <canvas id="canvas" width="300" height="300" style="border: 1px solid black"></canvas>
+  <div style="padding-bottom: 5px">
+    <input type="text" id="playerTurn">
+</div>
+</body>
+
+</html>
