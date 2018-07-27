@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+
+<head>
+  <script>
+    /**
+     * This start app function will run the whole app and will have global variables
+     * in it used by other functions.
+     */
+    function startApp() {
+      // Get access to the canvas HTML element so we can draw on it.
+      var context = document.getElementById('canvas').getContext('2d');
+      // Tie the canvas click event to the player move function so whenever a
+      // person clicks the game board our playerMove function will fire.
+      document.getElementById('canvas').addEventListener('click', playerMove);
+      // We need to choose one of the players to start so just always pick red.
+      var currentPlayerMove = 'red';
+      // Tell the users whose turn it is.
+      document.getElementById('playerTurn').value = 'Player Turn: ' + currentPlayerMove;
+      // Our game board will be empty to start, and will be manipulated as players
+      // click tiles.
+      var gameBoard = [
+        ['', '', ''],
+        ['', '', ''],
+        ['', '', '']
+      ];
+      // Show the proper game state at the start of the game, there will be no tiles filled in
+      renderGameState();
+
+      /**
+       * This will draw the two vertical lines and two horizontal lines on our game board.
+       */
+      function drawGrid() {
+        // left vertical line
+        context.moveTo(100, 0);
+        context.lineTo(100, 300);
+        context.stroke();
+
+        // right vertical line
+        context.moveTo(200, 0);
+        context.lineTo(200, 300);
+        context.stroke();
+
+        // top horizontal line
+        context.moveTo(0, 100);
+        context.lineTo(300, 100);
+        context.stroke();
+
+        // bottom horizontal line
+        context.moveTo(0, 200);
+        context.lineTo(300, 200);
+        context.stroke();
+      }
+
+      /**
+       * Process a player move.  We need to find out which tile was clicked and
+       * make sure that this tile is open, if it is open then we will allow the player
+       * to move there.  Once we have added the move we need to see if we have a winner
+       * or not.  Then we will update the screen with 'GAME OVER' or info with the current
+       * player turn.
+       */
+      function playerMove(event) {
+        // This will get us which column and row were clicked, 0 indexed, so it will be
+        // 0, 1 or 2 for col and row.
+        var col = Math.floor(event.clientX / 100);
+        var row = Math.floor(event.clientY / 100);
+
+        // ONLY allow this move if the space on the board is empty.
+        if (gameBoard[row][col] === '') {
+          // The tile is empty so set this tile to the color of the current player.
+          gameBoard[row][col] = currentPlayerMove;
+          // Now with this new game state we have to render the game board again.
+          renderGameState();
+          isWinner = checkForWinner();
+          if (isWinner) {
+            // Show the users that the game is over.
+            document.getElementById('playerTurn').value = 'GAME OVER';
+          } else {
+            // Tell the user whose turn it is.
+            currentPlayerMove = (currentPlayerMove === 'red') ? 'blue' : 'red';
+            document.getElementById('playerTurn').value = 'Player Turn: ' + currentPlayerMove;
+          }
+        }
+      }
+
+      /**
+       * Go through our game state and render the right color tiles in the right spots
+       * on the board.
+       */
+      function renderGameState() {
+        for (var rowIndex = 0; rowIndex < gameBoard.length; rowIndex ++) {
+          for (var colIndex = 0; colIndex < gameBoard[rowIndex].length; colIndex++) {
+            if (gameBoard[rowIndex][colIndex] !== '') {
+              context.beginPath();
+              // params here are (upperLeftXVal, upperLeftYVal, height, width)
+              context.rect(colIndex * 100, rowIndex * 100, 100, 100);
+              context.fillStyle = gameBoard[rowIndex][colIndex];
+              context.fill();
+            }
+          }
+        }
+        // We need to draw back the 2 vertical and 2 horizontal lines for the board to look right.
+        drawGrid();
+      }
+
+      /**
+       * In order to check for a winner we need to check for 3 in a row on a horizontal,
+       * a vertical and a diagonal.  We can do this one check at a time.  If we fail all
+       * of the checks we will know there is not a winner.
+       */
+      function checkForWinner() {
+        // These are winning strings so we will use these later on to compare to the
+        // state of the actual game board.
+        var redWinnerString = 'red|red|red';
+        var blueWinnerString = 'blue|blue|blue';
+
+        // First we will just check for rows to see if any rows have 3 in a row.
+        // Check the rows from top to bottom.
+        for (rowIndex = 0; rowIndex < gameBoard.length; rowIndex++) {
+          var rowString = gameBoard[rowIndex].join('|');
+          if (rowString === redWinnerString || rowString === blueWinnerString) {
+            return true;
+          }
+        }
+
+        // Now we can try to check for columns to see if any columns have 3 in a row.
+        // Check the columns from left to right.
+        for (var colIndex = 0; colIndex < gameBoard[0].length; colIndex++) {
+          var columnValues = []
+          for (var rowIndex = 0; rowIndex < gameBoard.length; rowIndex++) {
+            columnValues.push(gameBoard[rowIndex][colIndex]);
+          }
+          var colString = columnValues.join('|');
+          if (colString === redWinnerString || colString === blueWinnerString) {
+            return true;
+          }
+        }
+
+        // Last we need to check diagnals to see if we have 3 in a row diagonally.
+        // We will need to check the left to right diagonal and the right to left
+        // diagonal, we can do the check at the same time.
+        var leftToRightIndex = 0;
+        var rightToLeftIndex = gameBoard[0].length - 1;
+        var leftToRightDiagonalValues = [];
+        var rightToLeftDiagonalValues = [];
+        for (var rowIndex = 0; rowIndex < gameBoard.length; rowIndex++) {
+          rightToLeftDiagonalValues.push(gameBoard[rowIndex][rightToLeftIndex]);
+          leftToRightDiagonalValues.push(gameBoard[rowIndex][leftToRightIndex]);
+          leftToRightIndex++;
+          rightToLeftIndex--;
+        }
+        var diagonalValues = [leftToRightDiagonalValues.join('|'), rightToLeftDiagonalValues.join('|')];
+        if (diagonalValues.includes(redWinnerString) || diagonalValues.includes(blueWinnerString)) {
+          return true;
+        }
+
+        // We have gotten this far and not had a winner, we need to return false...
+        return false;
+      }
+
+    }
+    window.addEventListener('DOMContentLoaded', startApp)
+  </script>
+</head>
+
+<body>
+  <canvas id="canvas" width="300" height="300" style="border: 1px solid black"></canvas>
+  <div style="padding-bottom: 5px">
+    <input type="text" id="playerTurn">
+</div>
+</body>
+
+</html>

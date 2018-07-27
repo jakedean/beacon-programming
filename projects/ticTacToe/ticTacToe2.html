@@ -10,6 +10,9 @@
     function startApp() {
       // Get access to the canvas HTML element so we can draw on it.
       var context = document.getElementById('canvas').getContext('2d');
+      // Tie the canvas click event to the player move function so whenever a
+      // person clicks the game board our playerMove function will fire.
+      document.getElementById('canvas').addEventListener('click', playerMove);
       // We need to choose one of the players to start so just always pick red.
       var currentPlayerMove = 'red';
       // Tell the users whose turn it is.
@@ -50,10 +53,35 @@
       }
 
       /**
+       * Process a player move.  We need to find out which tile was clicked and
+       * make sure that this tile is open, if it is open then we will allow the player
+       * to move there.  Once we have added the move we need to see if we have a winner
+       * or not.  Then we will update the screen with 'GAME OVER' or info with the current
+       * player turn.
+       */
+      function playerMove(event) {
+        // This will get us which column and row were clicked, 0 indexed, so it will be
+        // 0, 1 or 2 for col and row.
+        var col = Math.floor(event.clientX / 100);
+        var row = Math.floor(event.clientY / 100);
+
+        // ONLY allow this move if the space on the board is empty.
+        if (gameBoard[row][col] === '') {
+          // The tile is empty so set this tile to the color of the current player.
+          gameBoard[row][col] = currentPlayerMove;
+          // Now with this new game state we have to render the game board again.
+          renderGameState();
+          // Tell the user whose turn it is.
+          currentPlayerMove = (currentPlayerMove === 'red') ? 'blue' : 'red';
+          document.getElementById('playerTurn').value = 'Player Turn: ' + currentPlayerMove;
+        }
+      }
+
+      /**
        * Go through our game state and render the right color tiles in the right spots
        * on the board.
        */
-      function renderGameState() {
+       function renderGameState() {
         for (var rowIndex = 0; rowIndex < gameBoard.length; rowIndex ++) {
           for (var colIndex = 0; colIndex < gameBoard[rowIndex].length; colIndex++) {
             if (gameBoard[rowIndex][colIndex] !== '') {

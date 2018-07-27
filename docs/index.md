@@ -47,7 +47,8 @@ All you need is a code editor. Feel free to use something as simple as Notepad o
 - [HTML Basics](https://github.com/jakedean/beacon-programming/tree/master/projects/html)
 - [CSS Basics](https://github.com/jakedean/beacon-programming/tree/master/projects/css)
 - [Bouncing Ball](https://github.com/jakedean/beacon-programming/tree/master/projects/bouncingBall)
-- MORE PROJECTS COMING SOON!
+- [Caesar Cypher](https://github.com/jakedean/beacon-programming/tree/master/projects/caesarCypher)
+- [Tic Tac Toe](https://github.com/jakedean/beacon-programming/tree/master/projects/ticTacToe)
 
 ## Contact Us
 
