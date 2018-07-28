@@ -1,49 +1,7 @@
 # Overview
 
-* Repo to hold our site for teaching programming. Could be called Beacon
-  Programming School or Beacon Programming or anything else.
-  beaconprogrammingschool.com and beaconprogramming.com are both available.
+* Repo to hold our site for teaching programming.  We will have information in the basics section and projects in the projects section.
+  If you are brand new you should read over the basics and try the problems at the end of the sections before trying any of the projects.
+  If you have some experience you could jump into the projects and use the basics as a reference.
 
-# List of Potential Names
-
-* Beacon Programming
-* Beacon Programming School
-
-# Current List
-
-* Create simple site with list of problems like Free Code Camp has.
-* Create a slack we can use to help people along.
-* Add some blog posts to the site with our goals for the site.
-
-# How to get the word out
-
-* Ask on Reddit if anyone wants help learning to program.
-* Go to FCC letsPair chat and find someone who might need help.
-
-# How to make money
-
-* Charge for access to the slack community.
-* Paywall screencasts (most of them
-
-# Screencast Transcripts
-
-* Introduce the project you will be walking the audience through. State the high
-  level technology and APIs that will be used. State the goal of what we want to
-  accomplish.
-* State that we are beginning the implementation of the project.
-* Better to be overly descriptive of all steps taken during the implementation.
-
-# Questions and Projects
-
-* [Easy] Write a function that takes in a string and reverses it.
-* [Easy] Write a program that takes in a number 1 to 10 and lets the user guess
-  it until they get it right.
-* [Medium] Write a class that implements a string library with functions of
-  subString, indexOf, explode etc.
-* [Medium] Create command line tic-tac-toe game that two players can play.
-* [Hard] Write a client library accessing our API (get access token, then ask
-  for data and display)
-* [Hard] Get a postgres database set up and create the setup for a hockey /
-  sports league.
-* [Hard] Minimax (connect 4, tic-tac-toe)
-* [Hard] Visualize the A\* algorithm
+* Check out the `/docs/README.md` for more info, or go straight to beaconprogramming.com to see a formatted version!
