@@ -18,11 +18,12 @@ bit too theoretical and lengthy for people looking to get into the industry as s
 
 Our goal is for you to start writing interesting programs. We believe most learning comes from writing programs yourself, so we only teach you the fundamental tools to get there. Problems are at the end of each section. Read through in order and try to work through the problems.
 
-An easy way to follow along is to use the Console in Google Chrome. The Console allows you to execute Javascript. The Console is found in the application menu `View->Developer->JavaScript Console`
-
 ## The Basics
 
 These are the basic tools the Javascript programming language provides. Understanding these will enable you to write almost any program you can imagine!
+
+### What you'll need
+Create an account here https://codepen.io/. Coderpen allows you to follow along and build small programs without needing to download any software. It allows you to write Javascript, HTML, and CSS while seeing the results on the page immediately. Remeber to use `console.log()` in your Javascript to see the output of the arguments you pass into it logged to the console. If you have questions about this, please reach out! 
 
 - [Variables](basics/Variables)
 - [Strings](basics/Strings)
@@ -39,10 +40,6 @@ Here are some of the basic tools of the development workflow:
 ## Learning Activities
 
 Once you understand the basics, it's time to put your understanding and creativity to the test! We have some programs that we have written ourselves for you to write yourself. While the code is available for you to look at, try your best to build these programs yourself first. Along the way we will introduce a few new concepts, such as HTML, CSS, Canvas, and a few others. If you aren't familiar with HTML or CSS, we suggest going through the examples for each in the section you see below. We use HTML and CSS for all the projects we will build.
-
-### What you'll need
-
-All you need is a code editor. Feel free to use something as simple as Notepad or (my favorite) [Visual Studio Code](https://code.visualstudio.com/).
 
 - [HTML Basics](https://github.com/jakedean/beacon-programming/tree/master/projects/html)
 - [CSS Basics](https://github.com/jakedean/beacon-programming/tree/master/projects/css)
