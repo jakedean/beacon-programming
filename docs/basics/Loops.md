@@ -9,7 +9,6 @@ var users = [
   {first: 'Tony', last: 'Nardi', state: 'MA'},
   {first: 'Jake', last: 'Dean', state: 'MA'},
   {first: 'Randy', last: 'Treverson', state: 'CT'},
- ...
 ]
 for (var index = 0; index < users.length; index = index + 1) {
   console.log(users[index])  // logs {first: 'Tony', last: 'Nardi', state: 'MA'} etc
