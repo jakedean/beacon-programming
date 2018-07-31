@@ -68,3 +68,8 @@ var sixthExample = (false || false); // value is false
 // Then define a conditional that prints out "Both Even!" if they both are even
 // "One Even, One Odd" if one is even and one is odd and "Both Odd" if they both are odd.
 ```
+4.
+```javascript
+// Define an array of strings then define a conditional that prints "This contains the word 'Hello'"
+// if the array contains 'Hello' and prints "Does not contain 'Hello'" otherwise.
+```

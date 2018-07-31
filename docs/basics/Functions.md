@@ -79,7 +79,8 @@ Problems:
 ```
 3.
 ```javascript
-// Write a function called findEvens(inputArr) that takes an array of ints and returns an array of only even ints
+// Write a function called findEvens(inputArr) that takes an array of ints and returns an array
+// of only even ints
 // Calling findEvens([1, 2, 3, 4]) returns [2,4]
 ```
 4.
@@ -87,4 +88,5 @@ Problems:
 // Write a function called containsSub(subString, fullString) that takes two strings and returns true if the
 // substring is in the full string, false otherwise.
 // Calling containsSub('at', 'bat') -> true, containsSub('dude', 'Tony Nardi') -> false
+// Take a look at the Strings basics doc if you are having trouble with this problem.
 ```

@@ -75,30 +75,33 @@ console.log(sumOfInts);  // Prints 6000
 1.
 ```javascript
 // Create an array
-
 // Loop through each element and print out the index and value.
+// Reference the Loops basics doc before trying this problem.
 ```
 2.
 ```javascript
 // Create an array filled with 5 elements and print it out
-
 // Now create a reverse of the first array using a loop and print it out.
+// Reference the Loops basics doc before trying this problem.
 ```
 3.
 ```javascript
 //Write a function defined as sortArray(arr) that takes an array of integers and sorts them
 // from smallest integer to largest integer.
 // calling sortArr([3,7,1,9]) would return [1, 3, 7, 9]
+// Reference the Loops basics and Functions basics docs before trying this problem.
 ```
 4.
 ```javascript
 // Write a function defined as combineArrays(arr1, arr2) that takes in two arrays and combines them into one
 // and returns the combined array, calling combineArrays([1, 2], [3]) should return [1, 2, 3]
+// Reference the Loops basics and Functions basics docs before trying this problem.
 ```
 5.
 ```javascript
 // Write a function defined as `getSize(arr)` that takes in an array and gets the size of it.
 // Calling getSize([1, 2, 8]) should return 3.
+// Reference the Loops basics and Functions basics docs before trying this problem.
 ```
 6.
 ```javascript
@@ -110,10 +113,13 @@ console.log(sumOfInts);  // Prints 6000
 
 // Last, write a function called getMedian(arr) that takes in an array of ints and get the median.
 // Calling getMedian([2, 8, 7, 7, 7]) should return 7
+
+// Reference the Loops basics and Functions basics docs before trying this problem.
 ```
 7.
 ```javascript
 // Write a function defined as createString(arr) that takes in an array of strings and returns one long string
 // where the words are separated by spaces.
 // Calling createString(['Hey', 'my', 'name', 'is', 'Jake']) should return 'Hey my name is jake'
+// Reference the Loops basics and Functions basics docs before trying this problem.
 ```
