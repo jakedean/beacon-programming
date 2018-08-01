@@ -69,7 +69,7 @@ As you can see, Randy will keep eating cheeseburgers until he is full.
 5.
 ```javascript
 // What is the highest number in the following array?
-// [1,1,2,1.5,1.9,2.2,2.09,1.5,2.2,2.3,2.2,0,.99,.5,.02,.92,.2.20,2.11,1,1,1.22,1,9,.3,.5]
+// [1,1,2,1.5,1.9,2.2,2.09,1.5,2.2,2.3,2.2,0,.99,.5,.02,.92,2.20,2.11,1,1,1.22,1,9,.3,.5]
 ```
 6.
 ```javascript
