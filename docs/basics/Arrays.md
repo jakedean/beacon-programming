@@ -72,15 +72,18 @@ console.log(sumOfInts);  // Prints 6000
 ```
 
 #### Array Problems
-1.
-```javascript
-// Create an array
-// Loop through each element and print out the index and value.
-// Reference the Loops basics doc before trying this problem.
-```
 
-Hint:
->! The hint
+1. 
+Uses: Variables, Loops
+```javascript
+// Create an array containing some values.
+// Loop through each element and print out the index and value.
+```
+<details><summary>HINT</summary>
+<p>
+  The for loop's starting condition should be 0. Its' ending condition should be the length of your array. Increment the starting condition by 1.
+</p>
+</details>
 
 2.
 ```javascript
