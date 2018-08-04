@@ -78,6 +78,10 @@ console.log(sumOfInts);  // Prints 6000
 // Loop through each element and print out the index and value.
 // Reference the Loops basics doc before trying this problem.
 ```
+
+Hint:
+>! The hint
+
 2.
 ```javascript
 // Create an array filled with 5 elements and print it out
