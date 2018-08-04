@@ -1,5 +1,10 @@
 Loops allow you to repeat instructions over and over, without needing to write much code.
 
+## Video
+A short video to introduce loops.
+
+https://www.youtube.com/watch?v=xIEgFdwVY7o
+
 ## Examples
 
 ### For-Loops
