@@ -82,11 +82,6 @@ console.log(sumOfInts); // Prints 6000
 
 `Uses: Variables, Loops`
 
-```javascript
-// Create an array containing some values.
-// Loop through each element and print out the index and value.
-```
-
 <details><summary>HINT</summary>
 
 <p>
@@ -94,14 +89,14 @@ console.log(sumOfInts); // Prints 6000
 </p>
 </details>
 
+```javascript
+// Create an array containing some values.
+// Loop through each element and print out the index and value.
+```
+
 2.
 
 `Uses: Variables, Loops`
-
-```javascript
-// Create an array filled with 5 elements and print it out
-// Now create a reverse of the first array using a loop and print it out.
-```
 
 <details><summary>HINT</summary>
 
@@ -109,6 +104,11 @@ console.log(sumOfInts); // Prints 6000
   The for loop's starting condition should be the length of your array. Its' ending condition should be 0. Decrement the starting condition by 1.
 </p>
 </details>
+
+```javascript
+// Create an array filled with 5 elements and print it out
+// Now create a reverse of the first array using a loop and print it out.
+```
 
 3.
 
