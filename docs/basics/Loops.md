@@ -27,10 +27,13 @@ As you might notice, the loop will run for as many items there are in the list.
 ### While Loops
 While loops are a similar construct to for loops. While loops are a more fitting tool for when you want to execute code until a particular condition is met.
 ```
-var randyIsHungry = true;
-while (randyIsHungry) {
-  eatCheeseburger();
-  randyIsHungry = isRandyHungry();
+var startingNumber = 0;
+var isLessThan10 = true;
+
+while (isLessThan10) {
+ console.log(startingNumber);
+ startingNumber++;
+ isLessThan10 = startingNumber < 10;
 }
 ```
 As you can see, Randy will keep eating cheeseburgers until he is full.
