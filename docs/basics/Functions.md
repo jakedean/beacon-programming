@@ -1,3 +1,6 @@
+# Video
+[Function Introduction](https://www.youtube.com/watch?v=8YR08Fe74D4)
+
 Functions are pieces of reusable code.  Here is an example of code in a format that does not use functions and then in a format that does use functions.
 ```javascript
 // This code will not use functions.
