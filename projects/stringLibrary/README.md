@@ -21,25 +21,20 @@ Here is how the Library should work:
 var stringLibrary = new StringLibrary();
 
 // should return 2 because 'y' is at index 2 of the string...
-var charIndex = stringLibrary.findCharacter('hey there', 'y');
+var charIndex = stringLibrary.findIndexOfCharacter('hey there', 'y');
 // should return -1 becuase 'z' is not in the string at all..
-var charIndex = stringLibrary.findCharacter('hey there', 'z');
+var charIndex = stringLibrary.findIndexOfCharacter('hey there', 'z');
 
 // Should return 4 because 'the' starts at index 4 in the string
-var stringIndex = stringLibrary.findString('hey there', 'the');
+var stringIndex = stringLibrary.findIndexOfString('hey there', 'the');
 // Should return -1 because 'bat' is not in the string at all.
-var stringIndex = stringLibrary.findString('hey there', 'bat');
+var stringIndex = stringLibrary.findIndexOfString('hey there', 'bat');
 
 // Should return 'nzw zngland' because we have replaced 'e' with 'z'
 var replacedString = stringLibrary.replaceCharacter('new england', 'e', 'z');
 // Should return 'new england' because we have tried to replace 'y' but there
 // were no 'y' characters in the string.
 var repalcedString = stringLibrary.replaceCharacter('new england', 'y', 'z');
-
-// Should retun 'bruins hockey' because we were able to replace 'boston' with 'bruins'
-var replacedString = stringLibrary.replaceString('boston hockey', 'boston', 'bruins');
-// Should return 'boston hockey' because we are unable to replace 'new york' in our string.
-var replacedString = stringLibrary.replaceString('boston hockey', 'new york', 'rangers');
 
 // Should return 's' because 's' is the 2nd index in the string.
 var char = stringLibrary.characterAtIndex('boston, massachusetts', 2);
