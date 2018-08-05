@@ -4,6 +4,9 @@ Arrays are a way to group items of the same type together. Imagine we have a lis
 that we want to display for our user on our website. We need a way to group them all into a
 bucket so we can show them one by one. You might do that like this:
 
+# Video
+[Array Introduction](https://www.youtube.com/watch?v=o3kLpOSHubY)
+
 ```javascript
 // Our links are now grouped into a single bucket so we can move them around in our program
 // as one unit.
