@@ -23,7 +23,7 @@ Our goal is for you to start writing interesting programs. We believe most learn
 These are the basic tools the Javascript programming language provides. Understanding these will enable you to write almost any program you can imagine!
 
 ### What you'll need
-Create an account here https://codepen.io/. Codepen allows you to follow along and build small programs without needing to download any software. It allows you to write Javascript, HTML, and CSS while seeing the results on the page immediately. Remember to use `console.log()` in your Javascript to see the output of the arguments you pass into it. If you have questions about this, please reach out! 
+Create an account here https://codepen.io/. Codepen allows you to follow along and build small programs without needing to download any software. It allows you to write Javascript, HTML, and CSS while seeing the results on the page immediately. Remember to use `console.log()` in your Javascript to see the output of the arguments you pass into it. If you have questions about this, please reach out!
 
 - [Variables](basics/Variables)
 - [Strings](basics/Strings)
@@ -50,6 +50,7 @@ Codepen for learning the fundamentals is excellent, but for larger programs it i
 - [Bouncing Ball](https://github.com/jakedean/beacon-programming/tree/master/projects/bouncingBall)
 - [Caesar Cypher](https://github.com/jakedean/beacon-programming/tree/master/projects/caesarCypher)
 - [Tic Tac Toe](https://github.com/jakedean/beacon-programming/tree/master/projects/ticTacToe)
+- [String Library](https://github.com/jakedean/beacon-programming/tree/master/projects/stringLibrary)
 
 ## Contact Us
 
