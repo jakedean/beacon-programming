@@ -48,12 +48,12 @@ while (isLessThan10) {
 <details><summary>HINT</summary>
   <p>
   
-  ```javascript
+  <pre><code>
   var array = ['hey', 'how', 'is', 'it', 'going'];
   for () {
     
   }
-  ```
+  </code></pre>
   
   </p>
 </details>
