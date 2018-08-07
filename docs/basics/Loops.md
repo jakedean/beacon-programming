@@ -41,9 +41,21 @@ while (isLessThan10) {
  isLessThan10 = startingNumber < 10;
 }
 ```
-As you can see, Randy will keep eating cheeseburgers until he is full.
 
 ## Problems
+
+`Uses: Loops, Arrays`
+<details><summary>HINT</summary>
+
+<p>
+  ```
+  var array = ['hey', 'how', 'is', 'it', 'going'];
+  for () {
+    
+  }
+  ```
+</p>
+</details>
 1.
 ```javascript
 // Loop over all elements in this array ['hey', 'how', 'is', 'it', 'going']
@@ -51,6 +63,19 @@ As you can see, Randy will keep eating cheeseburgers until he is full.
 // So for the first iteration you would want to have "Index is 0, Value is 'hey'" and so on.
 ```
 2.
+`Uses: Loops, Arrays, Variables`
+<details><summary>HINT</summary>
+
+<p>
+  ```
+  var sum = 0;
+  var numbers = [5,35, 78, 30, 47];
+  for () {
+  
+  }
+  ```
+</p>
+</details>
 ```javascript
 // init a variable as sum and set it to 0 initially
 // Loop through this array of Numbers [5,35, 78, 30, 47] and for each iteration add the value to sum
@@ -59,6 +84,19 @@ As you can see, Randy will keep eating cheeseburgers until he is full.
 // "Index: 1, Value: 35, currentSum: 40" and so on.
 ```
 3.
+`Uses: Loops, Arrays, Variables, Strings`
+<details><summary>HINT</summary>
+
+<p>
+  ```
+  var str = '';
+  var strArray = ['h', 'e', 'l', 'l', 'o']
+  for () {
+
+  }
+  ```
+</p>
+</details>
 ```javascript
 // init a variable called str to ''.
 // Loop through an array of strings ['h', 'e', 'l', 'l', 'o'] and build up str for each iteration.
@@ -66,6 +104,22 @@ As you can see, Randy will keep eating cheeseburgers until he is full.
 // should print "Index: 1, Value: 'e', currentStr: 'he'" and so on.
 ```
 4.
+`Uses: Loops, Arrays`
+<details><summary>HINT</summary>
+
+<p>
+  ```
+  var odds = [];
+  var evens = [];
+  var numbers = [4, 5, 8, 3, 9, 9];
+  for () {
+  
+  }
+  console.log(odds);
+  console.log(evens);
+  ```
+</p>
+</details>
 ```javascript
 // Define two arrays, one called odds one called evens.
 // Loop through this array [4, 5, 8, 3, 9, 9] and add the Number into the odds array if the number is odd,
@@ -75,15 +129,56 @@ As you can see, Randy will keep eating cheeseburgers until he is full.
 // [4, 8]
 ```
 5.
+`Uses: Loops, Arrays, Conditionals, Variables`
+<details><summary>HINT</summary>
+
+<p>
+  ```
+  var highestNumber = 0;
+  for () {
+    if (currentNumber > highestNumber) {
+      highestNumber = currentNumber;
+    }
+  }
+  ```
+</p>
+</details>
 ```javascript
 // What is the highest number in the following array?
 // [1,1,2,1.5,1.9,2.2,2.09,1.5,2.2,2.3,2.2,0,.99,.5,.02,.92,2.20,2.11,1,1,1.22,1,9,.3,.5]
 ```
 6.
+`Uses: Loops, Arrays, Variables`
+<details><summary>HINT</summary>
+
+<p>
+  ```
+  var totalIterations = 0;
+  var sum = 1.5;
+  while (sum < 10000000) {
+    sum = sum * 1.5;
+    totalIterations++
+  }
+  console.log(totalIterations)
+  ```
+</p>
+</details>
 ```javascript
 // How many iterations does it take to get to the number 10,000,000 if you only multiply `1.5` by itself?
 ```
 7.
+`Uses: Loops, Arrays`
+<details><summary>HINT</summary>
+
+<p>
+  ```
+  var i = 0;
+  while(i < 100) {
+    i++
+  }
+  ```
+</p>
+</details>
 ```javascript
 // Loop over the numbers from 0 to 100 printing 'Even' for evens and 'Odd' for odds.
 ```
