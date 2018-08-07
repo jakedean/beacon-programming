@@ -45,7 +45,7 @@ Not all problems are easy to solve. We recommend the following approach.
 Here are some of the basic tools of the development workflow:
 - [Git](basics/Git)
 
-## Learning Activities
+## Projects
 
 Once you understand the basics, it's time to put your understanding and creativity to the test! We have some programs that we have written ourselves for you to write yourself. While the code is available for you to look at, try your best to build these programs yourself first. Along the way we will introduce a few new concepts, such as HTML, CSS, Canvas, and a few others. If you aren't familiar with HTML or CSS, we suggest going through the examples for each in the section you see below. We use HTML and CSS for all the projects we will build.
 
