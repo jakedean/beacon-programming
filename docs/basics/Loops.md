@@ -109,7 +109,7 @@ while (isLessThan10) {
 ```
 
 4.
-`Uses: Loops, Arrays`
+`Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
   <pre><code>
@@ -135,7 +135,7 @@ while (isLessThan10) {
 ```
 
 5.
-`Uses: Loops, Arrays, Conditionals, Variables`
+`Uses: Loops, Arrays, Conditionals, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
     <pre><code>
@@ -155,7 +155,7 @@ while (isLessThan10) {
 ```
 
 6.
-`Uses: Loops, Arrays, Variables`
+`Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
     <pre><code>
@@ -175,7 +175,7 @@ while (isLessThan10) {
 ```
 
 7.
-`Uses: Loops, Arrays`
+`Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
     <pre><code>
