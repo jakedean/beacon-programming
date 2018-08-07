@@ -70,13 +70,13 @@ while (isLessThan10) {
 `Uses: Loops, Arrays, Variables`
 <details><summary>HINT</summary><p>
   
-  ```
+  <pre><code>
   var sum = 0;
   var numbers = [5,35, 78, 30, 47];
   for () {
   
   }
-  ```
+</pre></code>
   
 </p></details>
 
@@ -91,13 +91,13 @@ while (isLessThan10) {
 `Uses: Loops, Arrays, Variables, Strings`
 <details><summary>HINT</summary><p>
   
-  ```
+  <pre><code>
   var str = '';
   var strArray = ['h', 'e', 'l', 'l', 'o']
   for () {
 
   }
-  ```
+  </pre></code>
   
 </p></details>
 
@@ -112,7 +112,7 @@ while (isLessThan10) {
 `Uses: Loops, Arrays`
 <details><summary>HINT</summary><p>
   
-  ```
+  <pre><code>
   var odds = [];
   var evens = [];
   var numbers = [4, 5, 8, 3, 9, 9];
@@ -121,7 +121,7 @@ while (isLessThan10) {
   }
   console.log(odds);
   console.log(evens);
-  ```
+  </pre></code>
   
 </p></details>
 
@@ -138,14 +138,14 @@ while (isLessThan10) {
 `Uses: Loops, Arrays, Conditionals, Variables`
 <details><summary>HINT</summary><p>
   
-  ```
+    <pre><code>
   var highestNumber = 0;
   for () {
     if (currentNumber > highestNumber) {
       highestNumber = currentNumber;
     }
   }
-  ```
+    </pre></code>
   
 </p></details>
 
@@ -158,7 +158,7 @@ while (isLessThan10) {
 `Uses: Loops, Arrays, Variables`
 <details><summary>HINT</summary><p>
   
-  ```
+    <pre><code>
   var totalIterations = 0;
   var sum = 1.5;
   while (sum < 10000000) {
@@ -166,7 +166,7 @@ while (isLessThan10) {
     totalIterations++
   }
   console.log(totalIterations)
-  ```
+    </pre></code>
   
 </p></details>
 
@@ -178,12 +178,12 @@ while (isLessThan10) {
 `Uses: Loops, Arrays`
 <details><summary>HINT</summary><p>
   
-  ```
+    <pre><code>
   var i = 0;
   while(i < 100) {
     i++
   }
-  ```
+    </pre></code>
   
 </p></details>
 
