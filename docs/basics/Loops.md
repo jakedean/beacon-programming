@@ -46,7 +46,7 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays`
 <details><summary>HINT</summary>
-<p>
+  <p>
   
   ```javascript
   var array = ['hey', 'how', 'is', 'it', 'going'];
@@ -55,7 +55,7 @@ while (isLessThan10) {
   }
   ```
   
-</p>
+  </p>
 </details>
 
 1.
