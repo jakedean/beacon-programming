@@ -92,6 +92,7 @@ while (isLessThan10) {
 <details><summary>HINT</summary>
 
 <p>
+  
   ```
   var str = '';
   var strArray = ['h', 'e', 'l', 'l', 'o']
@@ -99,6 +100,7 @@ while (isLessThan10) {
 
   }
   ```
+  
 </p>
 </details>
 ```javascript
@@ -112,6 +114,7 @@ while (isLessThan10) {
 <details><summary>HINT</summary>
 
 <p>
+  
   ```
   var odds = [];
   var evens = [];
@@ -122,6 +125,7 @@ while (isLessThan10) {
   console.log(odds);
   console.log(evens);
   ```
+  
 </p>
 </details>
 ```javascript
@@ -137,6 +141,7 @@ while (isLessThan10) {
 <details><summary>HINT</summary>
 
 <p>
+  
   ```
   var highestNumber = 0;
   for () {
@@ -145,6 +150,7 @@ while (isLessThan10) {
     }
   }
   ```
+  
 </p>
 </details>
 ```javascript
@@ -156,6 +162,7 @@ while (isLessThan10) {
 <details><summary>HINT</summary>
 
 <p>
+  
   ```
   var totalIterations = 0;
   var sum = 1.5;
@@ -165,24 +172,30 @@ while (isLessThan10) {
   }
   console.log(totalIterations)
   ```
+  
 </p>
 </details>
+
 ```javascript
 // How many iterations does it take to get to the number 10,000,000 if you only multiply `1.5` by itself?
 ```
+
 7.
 `Uses: Loops, Arrays`
 <details><summary>HINT</summary>
 
 <p>
+  
   ```
   var i = 0;
   while(i < 100) {
     i++
   }
   ```
+  
 </p>
 </details>
+
 ```javascript
 // Loop over the numbers from 0 to 100 printing 'Even' for evens and 'Odd' for odds.
 ```
