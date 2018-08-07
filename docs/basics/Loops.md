@@ -53,6 +53,7 @@ while (isLessThan10) {
     
   }
   ```
+  
 </p></details>
 
 1.
@@ -65,9 +66,7 @@ while (isLessThan10) {
 
 2.
 `Uses: Loops, Arrays, Variables`
-<details><summary>HINT</summary>
-
-<p>
+<details><summary>HINT</summary><p>
   
   ```
   var sum = 0;
@@ -77,8 +76,7 @@ while (isLessThan10) {
   }
   ```
   
-</p>
-</details>
+</p></details>
 
 ```javascript
 // init a variable as sum and set it to 0 initially
@@ -89,9 +87,7 @@ while (isLessThan10) {
 ```
 3.
 `Uses: Loops, Arrays, Variables, Strings`
-<details><summary>HINT</summary>
-
-<p>
+<details><summary>HINT</summary><p>
   
   ```
   var str = '';
@@ -101,19 +97,18 @@ while (isLessThan10) {
   }
   ```
   
-</p>
-</details>
+</p></details>
+
 ```javascript
 // init a variable called str to ''.
 // Loop through an array of strings ['h', 'e', 'l', 'l', 'o'] and build up str for each iteration.
 // The first iteration should print "Index: 0, Value" 'h', currentStr: 'h'" and the second iteration
 // should print "Index: 1, Value: 'e', currentStr: 'he'" and so on.
 ```
+
 4.
 `Uses: Loops, Arrays`
-<details><summary>HINT</summary>
-
-<p>
+<details><summary>HINT</summary><p>
   
   ```
   var odds = [];
@@ -126,8 +121,8 @@ while (isLessThan10) {
   console.log(evens);
   ```
   
-</p>
-</details>
+</p></details>
+
 ```javascript
 // Define two arrays, one called odds one called evens.
 // Loop through this array [4, 5, 8, 3, 9, 9] and add the Number into the odds array if the number is odd,
@@ -136,11 +131,10 @@ while (isLessThan10) {
 // At the end print out odds and you should see [5, 3, 9, 9] and print out evens and you should see
 // [4, 8]
 ```
+
 5.
 `Uses: Loops, Arrays, Conditionals, Variables`
-<details><summary>HINT</summary>
-
-<p>
+<details><summary>HINT</summary><p>
   
   ```
   var highestNumber = 0;
@@ -151,17 +145,16 @@ while (isLessThan10) {
   }
   ```
   
-</p>
-</details>
+</p></details>
+
 ```javascript
 // What is the highest number in the following array?
 // [1,1,2,1.5,1.9,2.2,2.09,1.5,2.2,2.3,2.2,0,.99,.5,.02,.92,2.20,2.11,1,1,1.22,1,9,.3,.5]
 ```
+
 6.
 `Uses: Loops, Arrays, Variables`
-<details><summary>HINT</summary>
-
-<p>
+<details><summary>HINT</summary><p>
   
   ```
   var totalIterations = 0;
@@ -173,8 +166,7 @@ while (isLessThan10) {
   console.log(totalIterations)
   ```
   
-</p>
-</details>
+</p></details>
 
 ```javascript
 // How many iterations does it take to get to the number 10,000,000 if you only multiply `1.5` by itself?
@@ -182,9 +174,7 @@ while (isLessThan10) {
 
 7.
 `Uses: Loops, Arrays`
-<details><summary>HINT</summary>
-
-<p>
+<details><summary>HINT</summary><p>
   
   ```
   var i = 0;
@@ -193,8 +183,7 @@ while (isLessThan10) {
   }
   ```
   
-</p>
-</details>
+</p></details>
 
 ```javascript
 // Loop over the numbers from 0 to 100 printing 'Even' for evens and 'Odd' for odds.
