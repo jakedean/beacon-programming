@@ -46,6 +46,7 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays`
 <details><summary>HINT</summary><p>
+  
   ```javascript
   var array = ['hey', 'how', 'is', 'it', 'going'];
   for () {
@@ -59,6 +60,7 @@ while (isLessThan10) {
 // and print out the array index and the array value in each iteration of the loop.
 // So for the first iteration you would want to have "Index is 0, Value is 'hey'" and so on.
 ```
+
 2.
 `Uses: Loops, Arrays, Variables`
 <details><summary>HINT</summary>
