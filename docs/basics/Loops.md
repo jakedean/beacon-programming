@@ -54,7 +54,9 @@ while (isLessThan10) {
   }
   ```
 </p></details>
+
 1.
+
 ```javascript
 // Loop over all elements in this array ['hey', 'how', 'is', 'it', 'going']
 // and print out the array index and the array value in each iteration of the loop.
@@ -66,6 +68,7 @@ while (isLessThan10) {
 <details><summary>HINT</summary>
 
 <p>
+  
   ```
   var sum = 0;
   var numbers = [5,35, 78, 30, 47];
@@ -73,8 +76,10 @@ while (isLessThan10) {
   
   }
   ```
+  
 </p>
 </details>
+
 ```javascript
 // init a variable as sum and set it to 0 initially
 // Loop through this array of Numbers [5,35, 78, 30, 47] and for each iteration add the value to sum
