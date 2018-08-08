@@ -1,7 +1,6 @@
 # Video
-A short video to introduce loops.
 
-https://www.youtube.com/watch?v=xIEgFdwVY7o
+[Loops Introduction](https://www.youtube.com/watch?v=xIEgFdwVY7o)
 
 ## What are loops?
 
