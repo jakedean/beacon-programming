@@ -70,23 +70,80 @@ var secondResult = isNumberEven(2);
 
 Problems:
 1.
+`Uses: Functions`
+<details><summary>HINT</summary><p>
+  
+  <pre><code>
+function squareOfInput(input) {
+
+}
+
+squareOfInput(5)
+</pre></code>
+  
+</p></details>
 ```javascript
 // Write a function called squareOfInput(input) that returns the square of the input.
 // Calling squareOfInput(5) should return 25
 ```
+
 2.
+`Uses: Functions, Conditionals`
+<details><summary>HINT</summary><p>
+  
+  <pre><code>
+function squareOfInputIfEven(input) {
+  if (inputIsEvent) {
+  } else {
+  }
+}
+
+squareOfInput(5)
+</pre></code>
+  
+</p></details>
 ```javascript
 // Write a function called squareOfInputIfEven(input) that returns the square of the input
 // only if that input is even, else return 0.  Calling squareOfInputIfEven(2) returns 4
 // squareOfInputIfEven(3) returns 0
 ```
+
 3.
+`Uses: Functions, Arrays`
+<details><summary>HINT</summary><p>
+  
+  <pre><code>
+function findEvens(input) {
+  var evens = [];
+  for () {
+    
+  }
+  return evens
+}
+
+findEvens([5,1,2,3,4,7])
+</pre></code>
+  
+</p></details>
 ```javascript
 // Write a function called findEvens(inputArr) that takes an array of ints and returns an array
 // of only even ints
 // Calling findEvens([1, 2, 3, 4]) returns [2,4]
 ```
+
 4.
+`Uses: Functions, Strings, Conditionals`
+<details><summary>HINT</summary><p>
+  
+  <pre><code>
+function containsSub(subString, fullString) {
+  
+}
+
+containsSub('at', 'bat')
+</pre></code>
+  
+</p></details>
 ```javascript
 // Write a function called containsSub(subString, fullString) that takes two strings and returns true if the
 // substring is in the full string, false otherwise.
