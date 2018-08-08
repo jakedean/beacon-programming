@@ -1,11 +1,11 @@
-# What are Arrays?
-
-Arrays are a way to group items of the same type together. Imagine we have a list of urls
-that we want to display for our user on our website. We need a way to group them all into a
-bucket so we can show them one by one. You might do that like this:
 
 # Video
 [Array Introduction](https://www.youtube.com/watch?v=o3kLpOSHubY)
+
+## What are Arrays?
+
+Arrays are a way for programmers to organize information as a list of items. Imagine we have a list of urls
+that we want to display for our user on our website. We need a way to group them all so we can show them one by one. You might do that like this:
 
 ```javascript
 // Our links are now grouped into a single bucket so we can move them around in our program
@@ -18,10 +18,7 @@ for (var index = 0; index < urlArray.length; index++) {
 }
 ```
 
-The way things are stored and retreived in arrays is through indexes. What this means
-is I need a way to access a url from our `urlArray`. What if I want to just find out
-what the first url is in `urlArray`? For this we will look up the value at the first index
-of the array. Here is an example of the indexes and values of our array:
+Things are stored and retreived in arrays through indexes. Saying "what value is at index 0?" is the same as saying "what value is at position 0?". For example, what if I want to find out what the first url is in `urlArray`? For this we will look up the value at the first index of the array. Here is an example of the indexes and values of our array:
 
 ```javascript
 // index value:     0              1              2
@@ -49,8 +46,7 @@ console.log(hockeyPlayers[2]); // Prints 'undefined'
 console.log(carsArray[1000]); // Prints 'undefined'
 ```
 
-The values within an array don't have to be strings as we have shown thus far, they could be integers
-or dictionaries for example:
+The values within an array don't have to be strings as we have shown thus far, they could be integers, objects, or arrays for example:
 
 ```javascript
 var arrayOfIntegers = [1000, 2000, 3000];
@@ -61,7 +57,7 @@ console.log(arrayOfDictionaries[1]); // Prints {'name': 'Tony'}
 ```
 
 As was seen in the first example we often times want to generate an array so we can display information
-on a web page. The way looping through a list works is as follows:
+on a web page. The way looping through an array works is as follows:
 
 ```javascript
 var arrayOfInts = [1000, 2000, 3000];
@@ -79,7 +75,17 @@ for (var index = 0; index < arrayOfInts.length; index++) {
 console.log(sumOfInts); // Prints 6000
 ```
 
-# Problems
+Notice in our for loop we use `arrayOfInts.length`. The `.length` property of the array provides us with the number of items the array contains. Here are some examples:
+
+```
+var emptyArray = [];
+emptyArray.length === 0;
+
+var arrayWith3Items = [1,2,3];
+arrayWith3Items.length === 3;
+```
+
+## Problems
 
 1.
 
@@ -104,7 +110,13 @@ console.log(sumOfInts); // Prints 6000
 <details><summary>HINT</summary>
 
 <p>
-  The for loop's starting condition should be the length of your array. Its' ending condition should be 0. Decrement the starting condition by 1.
+  var array = ['a', 'b', 'c', 'd', 'e']
+  for () {
+
+  }
+  for () {
+  
+  }
 </p>
 </details>
 
@@ -125,13 +137,55 @@ console.log(sumOfInts); // Prints 6000
 
 4.
 
+`Uses: Functions, Loops, Variables`
+
+<details><summary>HINT</summary><p>
+  
+  <pre><code>
+function combineArrays(arr1, arr2) {
+  var combinedArray = [];
+  
+  for () {
+  
+  }
+
+  for () {
+  
+  }
+
+  return combinedArray;
+}
+
+combineArrays([1,2], [3,4,5])
+</pre></code>
+  
+</p></details>
+
+
 ```javascript
 // Write a function defined as combineArrays(arr1, arr2) that takes in two arrays and combines them into one
 // and returns the combined array, calling combineArrays([1, 2], [3]) should return [1, 2, 3]
-// Reference the Loops basics and Functions basics docs before trying this problem.
 ```
 
 5.
+
+`Uses: Functions, Loops, Variables`
+
+  <pre><code>
+function getSize(arr) {
+  var size = 0;
+  
+  for () {
+  
+  }
+
+  return size;
+}
+
+getSize([1,2,8])
+</pre></code>
+  
+</p></details>
 
 ```javascript
 // Write a function defined as `getSize(arr)` that takes in an array and gets the size of it.
@@ -156,9 +210,24 @@ console.log(sumOfInts); // Prints 6000
 
 7.
 
+`Uses: Functions, Loops, Variables`
+
+  <pre><code>
+function createString(arr) {
+  var longString = ""
+  for () {
+  
+  }
+  return longString;
+}
+
+createString(['hey', 'my', 'name', 'is', 'jake'])
+</pre></code>
+  
+</p></details>
+
 ```javascript
 // Write a function defined as createString(arr) that takes in an array of strings and returns one long string
 // where the words are separated by spaces.
 // Calling createString(['Hey', 'my', 'name', 'is', 'Jake']) should return 'Hey my name is jake'
-// Reference the Loops basics and Functions basics docs before trying this problem.
 ```
