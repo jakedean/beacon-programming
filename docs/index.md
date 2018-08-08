@@ -59,6 +59,7 @@ Codepen for learning the fundamentals is excellent, but for larger programs it i
 - [Caesar Cypher](https://github.com/jakedean/beacon-programming/tree/master/projects/caesarCypher)
 - [Tic Tac Toe](https://github.com/jakedean/beacon-programming/tree/master/projects/ticTacToe)
 - [String Library](https://github.com/jakedean/beacon-programming/tree/master/projects/stringLibrary)
+- [Array Library](https://github.com/jakedean/beacon-programming/tree/master/projects/arrayLibrary)
 
 ## Contact Us
 
