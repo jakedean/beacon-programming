@@ -171,6 +171,8 @@ combineArrays([1,2], [3,4,5])
 
 `Uses: Functions, Loops, Variables`
 
+<details><summary>HINT</summary><p>
+  
   <pre><code>
 function getSize(arr) {
   var size = 0;
@@ -212,6 +214,8 @@ getSize([1,2,8])
 
 `Uses: Functions, Loops, Variables`
 
+<details><summary>HINT</summary><p>
+  
   <pre><code>
 function createString(arr) {
   var longString = ""
