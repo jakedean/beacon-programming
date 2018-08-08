@@ -19,3 +19,13 @@
 - reverse(array) -> return the reversed array
 - pop(array) -> return an array with the last element popped off
 - push(array, element) -> return an array with a new element pushed onto the front.
+
+## Airline Reservation System
+- Implement an airline reservation system where we have flights that have a to and from,
+  a date and the number of first class and economy class seats.  There should be a base
+  price for each flight and there should be a multiplier if you order the tickets 2 months prior
+  and another muiltiplier if you order the tickets 4 months prior.
+- When someone tries to buy a ticket then you should check if you have any available for that to/from
+  and that date, and then if there are any available tell them how much it will cost.
+- We can have classes for ReservationSystem, Flight, Customer where we can init a reservation system
+  with flights, and then have a customer set max amounts they are willing to pay.
