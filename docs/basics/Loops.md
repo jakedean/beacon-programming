@@ -6,26 +6,26 @@
 
 Loops allow you to repeat instructions over and over, without needing to write much code.
 
-
 ### For-Loops
 
 Lets imagine you have an app that has thousands of users. You might represent the list of all users as an array. "for-loops" are a useful construct for iterating over the values in an array.
+
 ```javascript
 var users = [
   {first: 'Tony', last: 'Nardi', state: 'MA'},
   {first: 'Jake', last: 'Dean', state: 'MA'},
-  {first: 'Randy', last: 'Treverson', state: 'CT'},
+  {first: 'Randy', last: 'Treverson', state: 'CT'}
 ]
-for (var index = 0; index < users.length; index = index + 1) {
+for (var index = 0; index < users.length; index++) {
   console.log(users[index])  // logs {first: 'Tony', last: 'Nardi', state: 'MA'} etc
 }
 ```
 
 Let's dissect the for-loop a bit.
 
-1. The `var index = 0` is initialized first.
-2. If `index < users.length` is `true`, then the body of the loop is executed.
-3. After the body of the loop is executed, `index = index + 1` is executed.
+1. The `var index = 0` is initialized first. This is the "starting condition".
+2. If `index < users.length` is `true`, then the body of the loop is executed. This is the "ending condition".
+3. After the body of the loop is executed, `index++` is executed. This increments `index` by 1.
 4. `index < users.length` is checked again, and if true, we execute the body again and increment `index`
 
 As you might notice, the loop will run for as many items there are in the list.
@@ -33,6 +33,7 @@ As you might notice, the loop will run for as many items there are in the list.
 ### While Loops
 
 While loops are a similar construct to for loops. While loops are a more fitting tool for when you want to execute code until a particular condition is met.
+
 ```
 var startingNumber = 0;
 var isLessThan10 = true;
@@ -183,7 +184,7 @@ while (isLessThan10) {
     <pre><code>
   var i = 0;
   while(i < 100) {
-    i++
+
   }
     </pre></code>
   
