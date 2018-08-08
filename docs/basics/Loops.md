@@ -1,13 +1,15 @@
-Loops allow you to repeat instructions over and over, without needing to write much code.
-
-## Video
+# Video
 A short video to introduce loops.
 
 https://www.youtube.com/watch?v=xIEgFdwVY7o
 
-## Examples
+## What are loops?
+
+Loops allow you to repeat instructions over and over, without needing to write much code.
+
 
 ### For-Loops
+
 Lets imagine you have an app that has thousands of users. You might represent the list of all users as an array. "for-loops" are a useful construct for iterating over the values in an array.
 ```javascript
 var users = [
@@ -30,6 +32,7 @@ Let's dissect the for-loop a bit.
 As you might notice, the loop will run for as many items there are in the list.
 
 ### While Loops
+
 While loops are a similar construct to for loops. While loops are a more fitting tool for when you want to execute code until a particular condition is met.
 ```
 var startingNumber = 0;
