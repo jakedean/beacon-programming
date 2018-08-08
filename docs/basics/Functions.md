@@ -82,6 +82,7 @@ squareOfInput(5)
 </pre></code>
   
 </p></details>
+
 ```javascript
 // Write a function called squareOfInput(input) that returns the square of the input.
 // Calling squareOfInput(5) should return 25
@@ -102,6 +103,7 @@ squareOfInput(5)
 </pre></code>
   
 </p></details>
+
 ```javascript
 // Write a function called squareOfInputIfEven(input) that returns the square of the input
 // only if that input is even, else return 0.  Calling squareOfInputIfEven(2) returns 4
@@ -125,6 +127,7 @@ findEvens([5,1,2,3,4,7])
 </pre></code>
   
 </p></details>
+
 ```javascript
 // Write a function called findEvens(inputArr) that takes an array of ints and returns an array
 // of only even ints
@@ -144,6 +147,7 @@ containsSub('at', 'bat')
 </pre></code>
   
 </p></details>
+
 ```javascript
 // Write a function called containsSub(subString, fullString) that takes two strings and returns true if the
 // substring is in the full string, false otherwise.
