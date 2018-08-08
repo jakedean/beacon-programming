@@ -1,7 +1,10 @@
 # Video
 [Function Introduction](https://www.youtube.com/watch?v=8YR08Fe74D4)
 
-Functions are pieces of reusable code.  Here is an example of code in a format that does not use functions and then in a format that does use functions.
+## What are Functions?
+
+Functions are pieces of reusable code.  Here is an example of code that does not use functions.
+
 ```javascript
 // This code will not use functions.
 var userName = 'Jake';
@@ -13,8 +16,7 @@ userName = 'Matt';
 console.log('Hello ' + userName + ', how are you today?');
 ```
 
-You will notice that we had to repeat the `console.log('Hello ' + userName + ', how are you today?');` part of this code in order
-to get it to print our statement with `userName = 'Jake'` then for `userName = 'Matt'`.  We will now rewrite this with a function.
+Notice we must repeat `console.log('Hello ' + userName + ', how are you today?');` to print our statement with `userName = 'Jake'` and `userName = 'Matt'`.  We will now rewrite this with a function.
 
 ```javascript
 //The function definition here shows what this function will do once it is called.
@@ -34,7 +36,7 @@ greetTheUser('Matt');
 ```
 
 In the example above we reuse the code that is inside `greetTheUser` more than once so we don't have to rewrite the logic.
-Here is another example of a function that can add two numbers and `return` the resulting sum to the caller of the function.
+Here is another example of a function that adds two numbers and `return` the resulting sum to the caller of the function.
 
 ```javascript
 function addTwoNumbers(firstNumber, secondNumber) {
@@ -68,7 +70,8 @@ var firstResult = isNumberEven(5);
 var secondResult = isNumberEven(2);
 ```
 
-Problems:
+## Problems
+
 1.
 `Uses: Functions`
 <details><summary>HINT</summary><p>
