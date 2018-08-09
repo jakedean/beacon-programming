@@ -58,7 +58,7 @@ while (isLessThan10) {
   for () {
     
   }
-  </code></pre>
+</code></pre>
   
   </p>
 </details>
@@ -76,11 +76,11 @@ while (isLessThan10) {
   
   <pre><code>
   var sum = 0;
-  var numbers = [5,35, 78, 30, 47];
+  var numbers = [5, 35, 78, 30, 47];
   for () {
   
   }
-  </pre></code>
+</pre></code>
   
 </p></details>
 
@@ -103,7 +103,7 @@ while (isLessThan10) {
   for () {
 
   }
-  </pre></code>
+</pre></code>
   
 </p></details>
 
@@ -128,7 +128,7 @@ while (isLessThan10) {
   }
   console.log(odds);
   console.log(evens);
-  </pre></code>
+</pre></code>
   
 </p></details>
 
@@ -146,14 +146,14 @@ while (isLessThan10) {
 `Uses: Loops, Arrays, Conditionals, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
-    <pre><code>
+  <pre><code>
   var highestNumber = 0;
   for () {
     if (currentNumber > highestNumber) {
       highestNumber = currentNumber;
     }
   }
-    </pre></code>
+</pre></code>
   
 </p></details>
 
@@ -167,7 +167,7 @@ while (isLessThan10) {
 `Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
-    <pre><code>
+  <pre><code>
   var totalIterations = 0;
   var sum = 1.5;
   while (sum < 10000000) {
@@ -175,7 +175,7 @@ while (isLessThan10) {
     totalIterations++
   }
   console.log(totalIterations)
-    </pre></code>
+</pre></code>
   
 </p></details>
 
@@ -188,12 +188,12 @@ while (isLessThan10) {
 `Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
-    <pre><code>
+  <pre><code>
   var i = 0;
   while(i < 100) {
 
   }
-    </pre></code>
+</pre></code>
   
 </p></details>
 
