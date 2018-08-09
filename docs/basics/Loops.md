@@ -47,6 +47,8 @@ while (isLessThan10) {
 
 ## Problems
 
+1.
+
 `Uses: Loops, Arrays`
 <details><summary>HINT</summary>
   <p>
@@ -61,8 +63,6 @@ while (isLessThan10) {
   </p>
 </details>
 
-1.
-
 ```javascript
 // Loop over all elements in this array ['hey', 'how', 'is', 'it', 'going']
 // and print out the array index and the array value in each iteration of the loop.
@@ -70,6 +70,7 @@ while (isLessThan10) {
 ```
 
 2.
+
 `Uses: Loops, Arrays, Variables`
 <details><summary>HINT</summary><p>
   
@@ -79,7 +80,7 @@ while (isLessThan10) {
   for () {
   
   }
-</pre></code>
+  </pre></code>
   
 </p></details>
 
@@ -90,7 +91,9 @@ while (isLessThan10) {
 // iteration should say "Index: 0, Value: 5, currentSum: 5" and the second iteration should say
 // "Index: 1, Value: 35, currentSum: 40" and so on.
 ```
+
 3.
+
 `Uses: Loops, Arrays, Variables, Strings`
 <details><summary>HINT</summary><p>
   
@@ -112,6 +115,7 @@ while (isLessThan10) {
 ```
 
 4.
+
 `Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
@@ -138,6 +142,7 @@ while (isLessThan10) {
 ```
 
 5.
+
 `Uses: Loops, Arrays, Conditionals, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
@@ -158,6 +163,7 @@ while (isLessThan10) {
 ```
 
 6.
+
 `Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
@@ -178,6 +184,7 @@ while (isLessThan10) {
 ```
 
 7.
+
 `Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
   
