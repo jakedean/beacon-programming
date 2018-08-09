@@ -1,4 +1,6 @@
-# Video
+# Loops
+
+## Video
 
 [Loops Introduction](https://www.youtube.com/watch?v=xIEgFdwVY7o)
 
@@ -49,6 +51,60 @@ while (isLessThan10) {
 
 1.
 
+`Uses: Loops`
+
+```javascript
+// Use a for loop that logs to the console:
+// 1 2 3 4 5 6 7 8 9 10
+```
+
+2.
+
+`Uses: Loops`
+
+```javascript
+// Use a for loop that logs to the console:
+// 10 9 8 7 6 5 4 3 2 1
+```
+
+3.
+
+`Uses: Loops`
+
+```javascript
+// Use a for loop that logs to the console:
+// 5 6 7 8 9 10
+```
+
+4.
+
+`Uses: Loops`
+
+```javascript
+// Use a for loop that logs to the console:
+// 10 9 8 7 6
+```
+
+5.
+
+`Uses: Loops`
+
+```javascript
+// Use a for loop that logs to the console:
+// 1 3 5 7 9
+```
+
+6.
+
+`Uses: Loops`
+
+```javascript
+// Use a for loop that logs to the console:
+// 10 8 6 4 2 0
+```
+
+7.
+
 `Uses: Loops, Arrays`
 
 <details><summary>HINT</summary><p>
@@ -69,7 +125,7 @@ while (isLessThan10) {
 // So for the first iteration you would want to have "Index is 0, Value is 'hey'" and so on.
 ```
 
-2.
+8.
 
 `Uses: Loops, Arrays, Variables`
 
@@ -93,7 +149,7 @@ while (isLessThan10) {
 // "Index: 1, Value: 35, currentSum: 40" and so on.
 ```
 
-3.
+9.
 
 `Uses: Loops, Arrays, Variables, Strings`
 
@@ -117,7 +173,7 @@ while (isLessThan10) {
 // should print "Index: 1, Value: 'e', currentStr: 'he'" and so on.
 ```
 
-4.
+10.
 
 `Uses: Loops, Arrays, Variables, Conditionals`
 
@@ -138,14 +194,14 @@ while (isLessThan10) {
 
 ```javascript
 // Define two arrays, one called odds one called evens.
-// Loop through this array [4, 5, 8, 3, 9, 9] and add the Number into the odds array if the number is odd,
-// and to the evens array if the number is even. and print out the information for each iteration.
-// So the first iteration should print out "Index: 0, Value: 4, oddOrEven: 'even'"
-// At the end print out odds and you should see [5, 3, 9, 9] and print out evens and you should see
-// [4, 8]
+// Loop through this array [4, 5, 8, 3, 9, 9] and add the Number into the odds
+// array if the number is odd, and to the evens array if the number is even. and
+// print out the information for each iteration. So the first iteration should print
+// out "Index: 0, Value: 4, oddOrEven: 'even'" At the end print out odds and you should
+// see [5, 3, 9, 9] and print out evens and you should see [4, 8]
 ```
 
-5.
+11.
 
 `Uses: Loops, Arrays, Conditionals, Variables, Conditionals`
 
@@ -167,7 +223,7 @@ while (isLessThan10) {
 // [1,1,2,1.5,1.9,2.2,2.09,1.5,2.2,2.3,2.2,0,.99,.5,.02,.92,2.20,2.11,1,1,1.22,1,9,.3,.5]
 ```
 
-6.
+12.
 
 `Uses: Loops, Arrays, Variables, Conditionals`
 
@@ -186,10 +242,11 @@ while (isLessThan10) {
 </p></details>
 
 ```javascript
-// How many iterations does it take to get to the number 10,000,000 if you only multiply `1.5` by itself?
+// How many iterations does it take to get to the number 10,000,000 if you only
+// multiply `1.5` by itself?
 ```
 
-7.
+13.
 
 `Uses: Loops, Arrays, Variables, Conditionals`
 
