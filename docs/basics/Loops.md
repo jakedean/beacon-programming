@@ -12,21 +12,21 @@ Lets imagine you have an app that has thousands of users. You might represent th
 
 ```javascript
 var users = [
-  {first: 'Tony', last: 'Nardi', state: 'MA'},
-  {first: 'Jake', last: 'Dean', state: 'MA'},
-  {first: 'Randy', last: 'Treverson', state: 'CT'}
-]
+  { first: "Tony", last: "Nardi", state: "MA" },
+  { first: "Jake", last: "Dean", state: "MA" },
+  { first: "Randy", last: "Treverson", state: "CT" }
+];
 for (var index = 0; index < users.length; index++) {
-  console.log(users[index])  // logs {first: 'Tony', last: 'Nardi', state: 'MA'} etc
+  console.log(users[index]); // logs {first: 'Tony', last: 'Nardi', state: 'MA'} etc
 }
 ```
 
 Let's dissect the for-loop a bit.
 
-1. The `var index = 0` is initialized first. This is the "starting condition".
-2. If `index < users.length` is `true`, then the body of the loop is executed. This is the "ending condition".
-3. After the body of the loop is executed, `index++` is executed. This increments `index` by 1.
-4. `index < users.length` is checked again, and if true, we execute the body again and increment `index`
+1.  The `var index = 0` is initialized first. This is the "starting condition".
+2.  If `index < users.length` is `true`, then the body of the loop is executed. This is the "ending condition".
+3.  After the body of the loop is executed, `index++` is executed. This increments `index` by 1.
+4.  `index < users.length` is checked again, and if true, we execute the body again and increment `index`
 
 As you might notice, the loop will run for as many items there are in the list.
 
@@ -50,16 +50,17 @@ while (isLessThan10) {
 1.
 
 `Uses: Loops, Arrays`
+
 <details><summary>HINT</summary>
   <p>
-  
+
   <pre><code>
   var array = ['hey', 'how', 'is', 'it', 'going'];
   for () {
-    
+
   }
 </code></pre>
-  
+
   </p>
 </details>
 
@@ -72,16 +73,17 @@ while (isLessThan10) {
 2.
 
 `Uses: Loops, Arrays, Variables`
+
 <details><summary>HINT</summary><p>
-  
-  <pre><code>
+
+<pre><code>
   var sum = 0;
   var numbers = [5, 35, 78, 30, 47];
   for () {
-  
+
   }
 </pre></code>
-  
+
 </p></details>
 
 ```javascript
@@ -95,16 +97,18 @@ while (isLessThan10) {
 3.
 
 `Uses: Loops, Arrays, Variables, Strings`
+
 <details><summary>HINT</summary><p>
-  
-  <pre><code>
+
+<pre><code>
   var str = '';
   var strArray = ['h', 'e', 'l', 'l', 'o']
   for () {
 
-  }
+}
+
 </pre></code>
-  
+
 </p></details>
 
 ```javascript
@@ -117,19 +121,20 @@ while (isLessThan10) {
 4.
 
 `Uses: Loops, Arrays, Variables, Conditionals`
+
 <details><summary>HINT</summary><p>
 
-  <pre><code>
+<pre><code>
   var odds = [];
   var evens = [];
   var numbers = [4, 5, 8, 3, 9, 9];
   for () {
-  
+
   }
   console.log(odds);
   console.log(evens);
 </pre></code>
-  
+
 </p></details>
 
 ```javascript
@@ -144,9 +149,10 @@ while (isLessThan10) {
 5.
 
 `Uses: Loops, Arrays, Conditionals, Variables, Conditionals`
+
 <details><summary>HINT</summary><p>
 
-  <pre><code>
+<pre><code>
   var highestNumber = 0;
   for () {
     if (currentNumber > highestNumber) {
@@ -154,7 +160,7 @@ while (isLessThan10) {
     }
   }
 </pre></code>
-  
+
 </p></details>
 
 ```javascript
@@ -165,9 +171,10 @@ while (isLessThan10) {
 6.
 
 `Uses: Loops, Arrays, Variables, Conditionals`
+
 <details><summary>HINT</summary><p>
 
-  <pre><code>
+<pre><code>
   var totalIterations = 0;
   var sum = 1.5;
   while (sum < 10000000) {
@@ -176,7 +183,7 @@ while (isLessThan10) {
   }
   console.log(totalIterations)
 </pre></code>
-  
+
 </p></details>
 
 ```javascript
@@ -186,18 +193,18 @@ while (isLessThan10) {
 7.
 
 `Uses: Loops, Arrays, Variables, Conditionals`
+
 <details><summary>HINT</summary><p>
 
-  <pre><code>
+<pre><code>
   var i = 0;
   while(i < 100) {
 
   }
 </pre></code>
-  
+
 </p></details>
 
 ```javascript
 // Loop over the numbers from 0 to 100 printing 'Even' for evens and 'Odd' for odds.
 ```
-
