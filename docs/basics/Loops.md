@@ -51,8 +51,7 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays`
 
-<details><summary>HINT</summary>
-  <p>
+<details><summary>HINT</summary><p>
 
   <pre><code>
   var array = ['hey', 'how', 'is', 'it', 'going'];
