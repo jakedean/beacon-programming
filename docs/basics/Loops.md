@@ -81,7 +81,7 @@ while (isLessThan10) {
   for () {
 
   }
-  </pre></code>
+  </code></pre>
 
 </p></details>
 
@@ -106,7 +106,7 @@ while (isLessThan10) {
 
 }
 
-</pre></code>
+</code></pre>
 
 </p></details>
 
@@ -132,7 +132,7 @@ while (isLessThan10) {
   }
   console.log(odds);
   console.log(evens);
-</pre></code>
+</code></pre>
 
 </p></details>
 
@@ -158,7 +158,7 @@ while (isLessThan10) {
       highestNumber = currentNumber;
     }
   }
-</pre></code>
+</code></pre>
 
 </p></details>
 
@@ -181,7 +181,7 @@ while (isLessThan10) {
     totalIterations++
   }
   console.log(totalIterations)
-</pre></code>
+</code></pre>
 
 </p></details>
 
@@ -200,7 +200,7 @@ while (isLessThan10) {
   while(i < 100) {
 
   }
-</pre></code>
+</code></pre>
 
 </p></details>
 
