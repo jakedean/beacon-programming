@@ -118,7 +118,7 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
-  
+
   <pre><code>
   var odds = [];
   var evens = [];
@@ -145,7 +145,7 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Conditionals, Variables, Conditionals`
 <details><summary>HINT</summary><p>
-  
+
   <pre><code>
   var highestNumber = 0;
   for () {
@@ -166,7 +166,7 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
-  
+
   <pre><code>
   var totalIterations = 0;
   var sum = 1.5;
@@ -187,7 +187,7 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Variables, Conditionals`
 <details><summary>HINT</summary><p>
-  
+
   <pre><code>
   var i = 0;
   while(i < 100) {
