@@ -75,13 +75,13 @@ while (isLessThan10) {
 
 <details><summary>HINT</summary><p>
 
-<pre><code>
+  <pre><code>
   var sum = 0;
   var numbers = [5, 35, 78, 30, 47];
   for () {
 
   }
-</pre></code>
+  </pre></code>
 
 </p></details>
 
