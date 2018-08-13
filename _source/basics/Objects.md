@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 Objects are a way to store keys and values.  You might want to do this if you have a concept to model in your code.
 Imagine you have a concept of a product that you are selling on your online ecommerce store.  Each product will have
 the same attributes, they will have a product name, product sku and a product price.  Here is how that might look:

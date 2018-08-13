@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 # Loops
 
 ## Video
@@ -107,17 +109,12 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays`
 
-<details><summary>HINT</summary><p>
-
-  <pre><code>
+{% include hint.html content="
   var array = ['hey', 'how', 'is', 'it', 'going'];
   for () {
 
   }
-</code></pre>
-
-  </p>
-</details>
+" %}
 
 ```javascript
 // Loop over all elements in this array ['hey', 'how', 'is', 'it', 'going']
@@ -129,17 +126,13 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Variables`
 
-<details><summary>HINT</summary><p>
-
-  <pre><code>
+{% include hint.html content="
   var sum = 0;
   var numbers = [5, 35, 78, 30, 47];
   for () {
 
   }
-  </code></pre>
-
-</p></details>
+" %}
 
 ```javascript
 // init a variable as sum and set it to 0 initially
@@ -153,18 +146,14 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Variables, Strings`
 
-<details><summary>HINT</summary><p>
-
-<pre><code>
+{% include hint.html content="
   var str = '';
   var strArray = ['h', 'e', 'l', 'l', 'o']
   for () {
 
 }
 
-</code></pre>
-
-</p></details>
+" %}
 
 ```javascript
 // init a variable called str to ''.
@@ -177,9 +166,7 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Variables, Conditionals`
 
-<details><summary>HINT</summary><p>
-
-<pre><code>
+{% include hint.html content="
   var odds = [];
   var evens = [];
   var numbers = [4, 5, 8, 3, 9, 9];
@@ -188,9 +175,7 @@ while (isLessThan10) {
   }
   console.log(odds);
   console.log(evens);
-</code></pre>
-
-</p></details>
+" %}
 
 ```javascript
 // Define two arrays, one called odds one called evens.
@@ -205,18 +190,14 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Conditionals, Variables, Conditionals`
 
-<details><summary>HINT</summary><p>
-
-<pre><code>
+{% include hint.html content="
   var highestNumber = 0;
   for () {
     if (currentNumber > highestNumber) {
       highestNumber = currentNumber;
     }
   }
-</code></pre>
-
-</p></details>
+" %}
 
 ```javascript
 // What is the highest number in the following array?
@@ -227,9 +208,7 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Variables, Conditionals`
 
-<details><summary>HINT</summary><p>
-
-<pre><code>
+{% include hint.html content="
   var totalIterations = 0;
   var sum = 1.5;
   while (sum < 10000000) {
@@ -237,9 +216,7 @@ while (isLessThan10) {
     totalIterations++
   }
   console.log(totalIterations)
-</code></pre>
-
-</p></details>
+" %}
 
 ```javascript
 // How many iterations does it take to get to the number 10,000,000 if you only
@@ -250,17 +227,12 @@ while (isLessThan10) {
 
 `Uses: Loops, Arrays, Variables, Conditionals`
 
-<details><summary>HINT</summary><p>
-
-<pre><code>
+{% include hint.html content="
   var i = 0;
   while(i < 100) {
 
   }
-</code></pre>
-
-</p></details>
-
+" %}
 ```javascript
 // Loop over the numbers from 0 to 100 printing 'Even' for evens and 'Odd' for odds.
 ```

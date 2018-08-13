@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 Conditionals give us the ability to branch our code.  We might have one code path we want executed if a certain condition is met
 and another path executed if that condition is not met.  Here is an example:
 

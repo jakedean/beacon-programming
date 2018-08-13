@@ -1,0 +1,5 @@
+theme: jekyll-theme-hacker
+github: [metadata]
+repository: jakedean/beacon-programming
+source: _source
+destination: _deploy

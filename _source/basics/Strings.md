@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 Strings are a series of letters that make up a word or phrase that you might want
 to have in code.  You might want strings to store a Product SKU on an ecommerce site
 or the email of a user.  Here are some examples of strings in JS:

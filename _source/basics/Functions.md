@@ -1,38 +1,41 @@
+{% include navigation.html %}
+
 # Video
+
 [Function Introduction](https://www.youtube.com/watch?v=8YR08Fe74D4)
 
 ## What are Functions?
 
-Functions are pieces of reusable code.  Here is an example of code that does not use functions.
+Functions are pieces of reusable code. Here is an example of code that does not use functions.
 
 ```javascript
 // This code will not use functions.
-var userName = 'Jake';
+var userName = "Jake";
 // Prints 'Hello Jake, how are you today?'
-console.log('Hello ' + userName + ', how are you today?');
+console.log("Hello " + userName + ", how are you today?");
 
-userName = 'Matt';
+userName = "Matt";
 // Prints 'Hello Matt, how are you today?'
-console.log('Hello ' + userName + ', how are you today?');
+console.log("Hello " + userName + ", how are you today?");
 ```
 
-Notice we must repeat `console.log('Hello ' + userName + ', how are you today?');` to print our statement with `userName = 'Jake'` and `userName = 'Matt'`.  We will now rewrite this with a function.
+Notice we must repeat `console.log('Hello ' + userName + ', how are you today?');` to print our statement with `userName = 'Jake'` and `userName = 'Matt'`. We will now rewrite this with a function.
 
 ```javascript
 //The function definition here shows what this function will do once it is called.
 // This function here will be passed a userName by the caller, and it will be used to
 // format the message.
 function greetTheUser(userName) {
-  console.log('Hello ' + userName + ', how are you today?');
+  console.log("Hello " + userName + ", how are you today?");
 }
 
 // Call the function while passing in 'Jake' as the userName
 // Prints 'Hello Jake, how are you today?'
-greetTheUser('Jake');
+greetTheUser("Jake");
 
 // Now call the same function while passing in 'Matt' as the userName
 // Prints 'Hello Matt, how are you today?'
-greetTheUser('Matt');
+greetTheUser("Matt");
 ```
 
 In the example above we reuse the code that is inside `greetTheUser` more than once so we don't have to rewrite the logic.
@@ -54,6 +57,7 @@ console.log(secondSum);
 ```
 
 We can add conditional statements to our functions to have more than one code path...
+
 ```javascript
 function isNumberEven(numberToTest) {
   // Test if the number is devisible by 2 or not...
@@ -74,17 +78,14 @@ var secondResult = isNumberEven(2);
 
 1.
 `Uses: Functions`
-<details><summary>HINT</summary><p>
-  
-  <pre><code>
+
+{% include hint.html content="
 function squareOfInput(input) {
 
 }
 
 squareOfInput(5)
-</pre></code>
-  
-</p></details>
+" %}
 
 ```javascript
 // Write a function called squareOfInput(input) that returns the square of the input.
@@ -93,9 +94,8 @@ squareOfInput(5)
 
 2.
 `Uses: Functions, Conditionals`
-<details><summary>HINT</summary><p>
-  
-  <pre><code>
+
+{% include hint.html content="
 function squareOfInputIfEven(input) {
   if (inputIsEvent) {
   } else {
@@ -103,9 +103,7 @@ function squareOfInputIfEven(input) {
 }
 
 squareOfInput(5)
-</pre></code>
-  
-</p></details>
+" %}
 
 ```javascript
 // Write a function called squareOfInputIfEven(input) that returns the square of the input
@@ -115,9 +113,8 @@ squareOfInput(5)
 
 3.
 `Uses: Functions, Arrays`
-<details><summary>HINT</summary><p>
-  
-  <pre><code>
+
+{% include hint.html content="
 function findEvens(input) {
   var evens = [];
   for () {
@@ -127,9 +124,8 @@ function findEvens(input) {
 }
 
 findEvens([5,1,2,3,4,7])
-</pre></code>
-  
-</p></details>
+
+" %}
 
 ```javascript
 // Write a function called findEvens(inputArr) that takes an array of ints and returns an array
@@ -139,17 +135,15 @@ findEvens([5,1,2,3,4,7])
 
 4.
 `Uses: Functions, Strings, Conditionals`
-<details><summary>HINT</summary><p>
-  
-  <pre><code>
+
+{% include hint.html content="
 function containsSub(subString, fullString) {
   
 }
 
 containsSub('at', 'bat')
-</pre></code>
-  
-</p></details>
+
+" %}
 
 ```javascript
 // Write a function called containsSub(subString, fullString) that takes two strings and returns true if the

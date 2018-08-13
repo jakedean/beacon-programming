@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 Classes offer a way to model concepts in code.  Imagine we had an ecommerce website where we often had to
 display information about products.  We might have a class called Product like this:
 

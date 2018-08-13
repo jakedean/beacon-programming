@@ -1,3 +1,4 @@
+{% include navigation.html %}
 
 # Video
 [Array Introduction](https://www.youtube.com/watch?v=o3kLpOSHubY)
@@ -85,18 +86,15 @@ var arrayWith3Items = [1,2,3];
 arrayWith3Items.length === 3;
 ```
 
-## Problems
+## Problemsss
 
 1.
 
 `Uses: Variables, Loops`
 
-<details><summary>HINT</summary>
-
-<p>
+{% include hint.html content="
   The for loop's starting condition should be 0. Its' ending condition should be the length of your array. Increment the starting condition by 1.
-</p>
-</details>
+" %}
 
 ```javascript
 // Create an array containing some values.
@@ -107,9 +105,7 @@ arrayWith3Items.length === 3;
 
 `Uses: Variables, Loops`
 
-<details><summary>HINT</summary>
-
-<p>
+{% include hint.html content="
   var array = ['a', 'b', 'c', 'd', 'e']
   for () {
 
@@ -117,8 +113,7 @@ arrayWith3Items.length === 3;
   for () {
   
   }
-</p>
-</details>
+" %}
 
 ```javascript
 // Create an array filled with 5 elements and print it out
@@ -139,9 +134,7 @@ arrayWith3Items.length === 3;
 
 `Uses: Functions, Loops, Variables`
 
-<details><summary>HINT</summary><p>
-  
-  <pre><code>
+{% include hint.html content="
 function combineArrays(arr1, arr2) {
   var combinedArray = [];
   
@@ -157,9 +150,7 @@ function combineArrays(arr1, arr2) {
 }
 
 combineArrays([1,2], [3,4,5])
-</pre></code>
-  
-</p></details>
+" %}
 
 
 ```javascript
@@ -171,9 +162,7 @@ combineArrays([1,2], [3,4,5])
 
 `Uses: Functions, Loops, Variables`
 
-<details><summary>HINT</summary><p>
-  
-  <pre><code>
+{% include hint.html content="
 function getSize(arr) {
   var size = 0;
   
@@ -185,9 +174,7 @@ function getSize(arr) {
 }
 
 getSize([1,2,8])
-</pre></code>
-  
-</p></details>
+" %}
 
 ```javascript
 // Write a function defined as `getSize(arr)` that takes in an array and gets the size of it.
@@ -214,11 +201,9 @@ getSize([1,2,8])
 
 `Uses: Functions, Loops, Variables`
 
-<details><summary>HINT</summary><p>
-  
-  <pre><code>
+{% include hint.html content="
 function createString(arr) {
-  var longString = ""
+  var longString = \"\"
   for () {
   
   }
@@ -226,9 +211,7 @@ function createString(arr) {
 }
 
 createString(['hey', 'my', 'name', 'is', 'jake'])
-</pre></code>
-  
-</p></details>
+" %}
 
 ```javascript
 // Write a function defined as createString(arr) that takes in an array of strings and returns one long string

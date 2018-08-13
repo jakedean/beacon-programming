@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## Why do we need Git?
 Git is a tool to manage the changes that happen to your files.  The reason we need it is that we need a way to know how
 our codebase has changed over time.  Imagine we have a single file in our codebase called `app.js` and we push it to production.

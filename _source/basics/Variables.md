@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 Variables are a way to store pieces of data during a program. The types of data you would most commonly store are:
 ```javascript
 var stringVariable = "the string variable"; // A String
